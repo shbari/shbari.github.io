@@ -1,6 +1,6 @@
 <!-- Header block with name and tagline -->
 <p align="center">
-  <img src="images/profile.jpg" alt="Your Name" width="160" style="border-radius: 8px; margin-bottom: 10px;">
+  <img src="images/profile.jpeg" alt="Your Name" width="160" style="border-radius:50%;">
 </p>
 
 <h1 align="center">Your Name</h1>
