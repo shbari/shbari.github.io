@@ -1,7 +1,7 @@
 <!-- ========== HERO SECTION ========== -->
 
 <p align="center">
-  <img src="images/profile.jpg" alt="Your Name" width="160" style="border-radius: 50%; margin-bottom: 10px;">
+  <img src="images/profile.jpeg" alt="Your Name" width="160" style="border-radius: 50%; margin-bottom: 10px;">
 </p>
 
 <h1 align="center">Sheikh Hefzul Bari</h1>
