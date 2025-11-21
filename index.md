@@ -1,122 +1,163 @@
-<!-- Header block with name and tagline -->
+<!-- ========== HERO SECTION ========== -->
+
 <p align="center">
-  <img src="images/profile.jpeg" alt="Your Name" width="160" style="border-radius:50%;">
+  <img src="images/profile.jpg" alt="Your Name" width="160" style="border-radius: 50%; margin-bottom: 10px;">
 </p>
 
-<h1 align="center">Your Name</h1>
+<h1 align="center">Sheikh Hefzul Bari</h1>
 
 <p align="center">
-  <strong>Current position</strong> · Department, University, Country  
-  <br>
-  Hydrology · Sediment transport · Tidal influence on river mouth dynamics
+  <strong>PhD Candidate in Hydrology</strong> , Fukushima University, Japan  
 </p>
 
 <p align="center">
-  <a href="mailto:youremail@university.ac.jp">Email</a> ·
-  <a href="https://orcid.org/0000-0000-0000-0000">ORCID</a> ·
-  <a href="https://scholar.google.com/citations?user=XXXX">Google Scholar</a> ·
-  <a href="https://www.linkedin.com/in/yourprofile/">LinkedIn</a> ·
-  <a href="https://github.com/yourusername">GitHub</a> ·
-  <a href="files/CV_YourName.pdf">CV (PDF)</a>
+  <em>Suspended sediment dynamics, Climate change, Compound flooding, Mountain-to-coast river systems.</em>
+</p>
+
+<p align="center">
+
+  <!-- Badges (optional but they look very clean and modern) -->
+  <a href="mailto:shbari.bd@gmail.com">
+    <img src="https://img.shields.io/badge/Email-click-informational?style=flat" alt="Email">
+  </a>
+  <a href="https://orcid.org/0000-0003-2635-2146">
+    <img src="https://img.shields.io/badge/ORCID-ID-A6CE39?style=flat&logo=orcid&logoColor=white" alt="ORCID">
+  </a>
+  <a href="https://www.researchgate.net/profile/YourName" target="_blank">
+    <img src="https://img.shields.io/badge/ResearchGate-Visit-blue?style=flat" alt="ResearchGate">
+</a>
+  <a href="https://scholar.google.com/citations?user=6c-lCXEAAAAJ&hl=en">
+    <img src="https://img.shields.io/badge/Google%20Scholar-Profile-4285F4?style=flat&logo=googlescholar&logoColor=white" alt="Google Scholar">
+  </a>
+  <a href="https://www.linkedin.com/in/shbari">
+    <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat&logo=linkedin&logoColor=white" alt="LinkedIn">
+  </a>
+  <a href="https://github.com/shbari">
+    <img src="https://img.shields.io/badge/GitHub-repo-181717?style=flat&logo=github&logoColor=white" alt="GitHub">
+  </a>
+  <a href="files/CV_YourName.pdf">
+    <img src="https://img.shields.io/badge/CV-PDF-blue?style=flat" alt="CV">
+  </a>
 </p>
 
 ---
+
+<!-- ========== QUICK SNAPSHOT ========== -->
+
+
 
 ## About
 
-I am a researcher in hydrology and environmental fluid mechanics.  
-My work focuses on suspended sediment dynamics, long flood events, and mixed tidal–fluvial systems in mountainous catchments.
+I am a researcher in hydrology and environmental fluid mechanics, focusing on how floods and tides shape suspended sediment dynamics from mountain headwaters to river mouths.
 
-I combine field observations, numerical models, and statistical tools to understand how rainfall, snowmelt, and tides control discharge and sediment transport. I am currently a **PhD candidate at Your University** under the supervision of **Advisor Name**.
+My work combines field observations, numerical models, and statistical analysis of long time series to understand how rainfall, snowmelt, and tidal forcing control discharge and sediment transport. I am currently a **PhD candidate at Your University**, supervised by **Advisor Name**, and I am particularly interested in event-based analysis of long-duration, multi-peak floods.
 
 ---
+
+<!-- ========== RESEARCH INTERESTS ========== -->
 
 ## Research interests
 
-- Suspended sediment dynamics in mountain to coast river systems  
-- Event based hysteresis analysis for sediment rating  
-- Mixed rainfall–snowmelt flood events and baseflow separation  
-- Tidal influence on river mouth hydrodynamics  
-- Open source tools for hydro sediment analysis (Python, Fortran, R)
+- Suspended sediment dynamics in mountainous rivers and estuaries  
+- Event-based hysteresis in SSC–Q relationships  
+- Mixed rainfall–snowmelt floods and baseflow separation  
+- Tidal influence on river mouth hydrodynamics and compound flooding  
+- Open-source tools for hydro-sediment analysis (Python, Fortran, R)
 
 ---
 
-## News
+<!-- ========== NEWS / HIGHLIGHTS ========== -->
 
-- **2025** – Submitted a paper on long duration flood sediment dynamics to *Journal Name*  
-- **2024** – Presented tidal influence on river mouth flooding at **JpGU**  
-- **2023** – Awarded **XYZ scholarship** for doctoral research  
-- **2022** – Released an open source Python toolkit for sediment rating curve analysis
+## Highlights
+
+- **2025** – Submitted *“Title of paper on long-duration flood sediment dynamics”* to *Journal Name*  
+- **2024** – Presented on tidal influence on river mouth flooding at **JpGU 2024**  
+- **2023** – Awarded the **XYZ Scholarship** for doctoral research in hydrology  
+- **2022** – Released an open-source Python toolkit for sediment rating curve and hysteresis analysis  
+
+*(You can keep 3–6 bullets here; update yearly.)*
 
 ---
+
+<!-- ========== SELECTED PUBLICATIONS ========== -->
 
 ## Selected publications
 
-(*Reverse chronological order. Bold your name. Use a consistent style.*)
+(*Reverse chronological order. Bold your name. Use a consistent citation style.*)
 
-1. **Your Name**, Coauthor A, Coauthor B (2024)  
-   Suspended sediment dynamics during long flood events in a mountainous river  
-   *Journal of Hydrologic Processes*, 38, 1234–1250.  
-   [PDF](files/Bari2024_LongFloodSediment.pdf) · [DOI](https://doi.org/xx.xxxx/xxxxx)
+1. **Your Name**, Coauthor A, Coauthor B (2024).  
+   *Suspended sediment dynamics during long-duration flood events in a mountainous river.*  
+   **Journal of Hydrologic Processes**, 38, 1234–1250.  
+   [PDF](files/YourPaper2024_LongFloodSediment.pdf) · [DOI](https://doi.org/xx.xxxx/xxxxx)
 
-2. **Your Name**, Coauthor C, Coauthor D (2023)  
-   Event based sediment rating curve using hysteresis index and rainfall properties  
-   *Hydrological Sciences Journal*, 68, 987–1005.  
+2. **Your Name**, Coauthor C, Coauthor D (2023).  
+   *Event-based sediment rating curves using hysteresis indices and rainfall characteristics.*  
+   **Hydrological Sciences Journal**, 68, 987–1005.  
 
-3. Coauthor E, **Your Name**, Coauthor F (2022)  
-   Snowmelt and rainfall contribution to mixed flood events in a cold region basin  
-   *Water Resources Research*, 58, e2022WRXXXXX.  
+3. Coauthor E, **Your Name**, Coauthor F (2022).  
+   *Snowmelt and rainfall contributions to compound flood events in a cold-region basin.*  
+   **Water Resources Research**, 58, e2022WRXXXXX.  
 
 [Full publication list →](files/publications_full_list.pdf)
 
 ---
 
-## Projects
+<!-- ========== PROJECTS & TOOLS ========== -->
 
-- **Sediment hysteresis toolkit**  
-  Python tools for identifying sub events, calculating hysteresis indices, and visualizing SSC–Q loops.  
-  [Code on GitHub](https://github.com/yourusername/sediment-hysteresis-toolkit)
+## Projects & tools
 
-- **Snowmelt rainfall separation in mountain basins**  
-  Degree day and energy balance approaches combined with elevation dependent temperature and JMA data.
+- **Sediment Hysteresis Toolkit (Python)**  
+  Tools for detecting sub-events, computing hysteresis indices, and visualizing SSC–Q loops.  
+  [View on GitHub](https://github.com/yourusername/sediment-hysteresis-toolkit)
 
-- **Tidal influence on river mouth flooding**  
-  Analysis of tide–river interaction, de tidied hydrographs, and implications for compound flooding.
+- **Snowmelt–Rainfall Separation for Mountain Basins**  
+  Degree-day and energy-balance based snowmelt modeling using elevation-dependent temperature and JMA data.
 
----
-
-## Teaching and supervision
-
-- **Teaching assistant**, Advanced Hydrology (MSc), Your University, 2023–2025  
-  - Led practical sessions on rainfall runoff modeling and baseflow separation  
-  - Supervised student projects on sediment rating curves
-
-- **Guest lecture**, Environmental Data Analysis, 2024  
-  - Topic: Event based SSC–Q relationships and uncertainty analysis
+- **Tide–River Interaction at the River Mouth**  
+  De-tiding of discharge records, analysis of tidal modulation of floods, and implications for compound flooding.
 
 ---
 
-## Conferences and talks
+<!-- ========== TEACHING & SUPERVISION ========== -->
 
-- **Tidal influence on compound flooding in a mountainous river mouth**, JpGU 2024, Oral presentation  
-- **Suspended sediment dynamics during long duration storms**, AOGS 2023, Poster  
-- **Hydro sediment time series analysis with Python**, Department seminar, 2022
+## Teaching & supervision
+
+- **Teaching Assistant**, Advanced Hydrology (MSc), Your University (2023–present)  
+  - Led practical sessions on rainfall–runoff modeling and baseflow separation  
+  - Supervised student projects on sediment rating curves and uncertainty analysis  
+
+- **Guest Lecturer**, Environmental Data Analysis, 2024  
+  - Topic: Event-based SSC–Q relationships and hysteresis analysis with Python  
 
 ---
 
-## Service and memberships
+<!-- ========== TALKS & OUTREACH ========== -->
+
+## Talks & outreach
+
+- **Tidal influence on compound flooding in a mountainous river mouth**, JpGU 2024, oral presentation  
+- **Suspended sediment dynamics during long-duration storms**, AOGS 2023, poster presentation  
+- **Hydro-sediment time series analysis with Python**, Departmental seminar, 2022  
+
+---
+
+<!-- ========== SERVICE & MEMBERSHIPS ========== -->
+
+## Service & memberships
 
 - Reviewer for *Journal Name*, *Another Journal*  
 - Member, Japanese Geoscience Union (JpGU)  
-- Member, Association of Hydrologic Sciences
+- Member, Association of Hydrologic Sciences  
 
 ---
+
+<!-- ========== CONTACT & FOOTER ========== -->
 
 ## Contact
 
 - **Email:** youremail@university.ac.jp  
 - **Office:** Room 123, Building Name, Your University, City, Country  
-- **GitHub:** https://github.com/yourusername  
-- **ORCID:** https://orcid.org/0000-0000-0000-0000  
+- **GitHub:** <https://github.com/yourusername>  
+- **ORCID:** <https://orcid.org/0000-0000-0000-0000>  
 
-_Last updated: 2025-11-20_
+<sub>Last updated: 2025-11-21</sub>
