@@ -1,8 +1,3 @@
----
-title: "Your Name"
-description: "Hydrology • Sediment transport • Tidal dynamics"
----
-
 <!-- Header block with name and tagline -->
 <p align="center">
   <img src="images/profile.jpg" alt="Your Name" width="160" style="border-radius: 8px; margin-bottom: 10px;">
