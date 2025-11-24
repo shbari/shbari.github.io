@@ -70,7 +70,7 @@ My work combines field observations, numerical models, and statistical analysis.
 ## Whats' New
 <!-- Add a photo link here -->
 <p align="center">
-  <img src="images/IMG_4842.jpg" alt="AOGS presentation" width="20%" />
+  <img src="images/IMG_4842.JPG" alt="AOGS presentation" width="20%" />
 </p>
 
 **2025** – I have presented my ongoing research at *Asia Oceania Geosciences Society (AOGS)* Annual Meeting in Singapore
@@ -160,4 +160,4 @@ My work combines field observations, numerical models, and statistical analysis.
 
  
 
-<sub>Last updated: 2025-11-21</sub>
+<sub>Last updated: 2025-11-24</sub>
