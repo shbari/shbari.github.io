@@ -50,7 +50,7 @@
 I am passionate about studying hydrology and fluvial–coastal systems in a changing climate, focusing on how hydrological and geomorphological processes shape suspended sediment dynamics from mountain headwaters to river mouths. I also study extreme events and their impacts to develop data-driven assessment tools and resilience-focused adaptation strategies for climate-driven hazards.
 </div>
 <div style="text-align: justify;">
-My work combines field observations, numerical models, and statistical analysis. I am currently a <b>PhD candidate at Fukushima University</b>, supervised by profesor </b>Yoshiyuki Yokoo</b>.
+My work combines field observations, numerical models, and statistical analysis. I am currently a <b>PhD candidate at Fukushima University</b>, supervised by profesor <b>Yoshiyuki Yokoo</b>.
 </div>
 
 ---
