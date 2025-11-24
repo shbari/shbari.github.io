@@ -158,6 +158,12 @@ My work combines field observations, numerical models, and statistical analysis.
 
 
 
- 
+<div style="text-align: center; font-size: 0.9em; margin-top: 20px;">
+  © 2025 Sheikh Hefzul Bari. Content licensed under 
+  <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener noreferrer">
+    CC BY 4.0
+  </a>.
+</div>
+
 
 <sub>Last updated: 2025-11-24</sub>
