@@ -13,7 +13,7 @@
 </p>
 
 <p align="center">
-  <em>Suspended sediment dynamics, Climate change, Compound flooding, Mountain-to-coast river systems.</em>
+  <em>Suspended sediment dynamics, Climate change, Compound flooding, River continuum.</em>
 </p>
 
 <p align="center">
