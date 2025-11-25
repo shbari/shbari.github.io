@@ -67,7 +67,7 @@ My work combines field observations, numerical models, and statistical analysis.
 
 <!-- ========== NEWS / HIGHLIGHTS ========== -->
 
-## Whats' New
+## What's New
 <!-- Add a photo link here -->
 <p align="center">
   <img src="images/IMG_4842.JPG" alt="AOGS presentation" width="20%" />
