@@ -23,23 +23,23 @@
     <img src="https://img.shields.io/badge/Email-click-informational?style=flat" alt="Email">
   </a> -->
 <a href="https://orcid.org/0000-0003-2635-2146" target="_blank">
-  <img src="https://img.shields.io/badge/ORCID-A6CE39?style=flat&logo=orcid&logoColor=white" alt="ORCID">
+  <img src="https://img.shields.io/badge/ORCID-A6CE39?style=flat&logo=orcid&logoColor=white" alt="ORCID" style="cursor: pointer;">
 </a>
 
 <a href="https://www.researchgate.net/profile/Sheikh-Hefzul-Bari" target="_blank">
-  <img src="https://img.shields.io/badge/ResearchGate-00CCBB?style=flat&logo=researchgate&logoColor=white" alt="ResearchGate">
+  <img src="https://img.shields.io/badge/ResearchGate-00CCBB?style=flat&logo=researchgate&logoColor=white" alt="ResearchGate" style="cursor: pointer;">
 </a>
 
 <a href="https://scholar.google.com/citations?user=6c-lCXEAAAAJ&hl=en" target="_blank">
-  <img src="https://img.shields.io/badge/Google%20Scholar-4285F4?style=flat&logo=googlescholar&logoColor=white" alt="Google Scholar">
+  <img src="https://img.shields.io/badge/Google%20Scholar-4285F4?style=flat&logo=googlescholar&logoColor=white" alt="Google Scholar" style="cursor: pointer;">
 </a>
 
 <a href="https://www.linkedin.com/in/shbari" target="_blank">
-  <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white" alt="LinkedIn">
+  <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white" alt="LinkedIn" style="cursor: pointer;">
 </a>
 
 <a href="https://github.com/shbari" target="_blank">
-  <img src="https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white" alt="GitHub">
+  <img src="https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white" alt="GitHub" style="cursor: pointer;">
 </a>
 
 </p>
