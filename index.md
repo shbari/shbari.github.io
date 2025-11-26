@@ -1,3 +1,10 @@
+<style>
+  h2 {
+    border-bottom: none !important;
+    padding-bottom: 0 !important;
+    margin-bottom: 0.3em; /* tighter spacing if you want */
+  }
+</style>
 
 <!-- ========== TOP NAVBAR (RESPONSIVE & COLLAPSIBLE) ========== -->
 <style>
