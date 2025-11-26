@@ -1,4 +1,5 @@
 ---
+layout: clean
 title: "Sheikh Hefzul Bari"
 ---
 
