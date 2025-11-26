@@ -82,7 +82,7 @@ My work combines field observations, numerical models, and statistical analysis.
 
 ---
 
-<!-- ========== SELECTED PUBLICATIONS ========== -->
+<!-- ========== SELECTED PUBLICATIONS ========== 
 
 ## Selected publications
 <!--1. **S H Bari** , M Tateno, Y Yokoo,  C Leong (2025). Dynamics, particle size distribution and mineral composition of suspended sediment    transport in the Abukuma River estuary. *Hydrological Research Letters*, 19(1):51-57. 
@@ -97,8 +97,8 @@ My work combines field observations, numerical models, and statistical analysis.
 [**Full publication list with pdf access →**](https://sites.google.com/view/shbari/publications?authuser=0)
 
 ---
-
-<!-- ========== PROJECTS & TOOLS ========== -->
+-->
+<!-- ========== PROJECTS & TOOLS ========== 
 
 ## Projects & tools
 *Projects*
@@ -110,7 +110,7 @@ My work combines field observations, numerical models, and statistical analysis.
 - **pyHomogeneity**: a python package for homogeneity test of time series data.
 
 
----
+--- -->
 
 <!-- ========== TEACHING & SUPERVISION ========== -->
 
