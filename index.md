@@ -1,167 +1,251 @@
----
-title: "Sheikh Hefzul Bari"
----
-
-<!-- ====== TOP NAVBAR (simple + mobile friendly) ====== -->
+<!-- ========== TOP NAVBAR (RESPONSIVE & COLLAPSIBLE) ========== -->
 <style>
-.navbar {
-  display: flex;
-  justify-content: flex-end;
-  gap: 20px;
-  padding: 10px 0;
-  font-size: 1.05em;
-  flex-wrap: wrap;
-}
-.navbar a {
-  text-decoration: none;
-  color: #0366d6;
-  font-weight: 600;
-}
-.navbar a:hover {
-  text-decoration: underline;
-}
+  .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 20px;
+    padding: 10px 0;
+    font-size: 1.0em;
+    flex-wrap: wrap;
+    border-bottom: 1px solid #e1e4e8;
+    margin-bottom: 10px;
+  }
+
+  .navbar a {
+    text-decoration: none;
+    color: #0366d6;
+    font-weight: 600;
+  }
+
+  .navbar a:hover {
+    text-decoration: underline;
+  }
+
+  /* Hidden checkbox to control menu state */
+  .nav-toggle {
+    display: none;
+  }
+
+  /* "☰ Menu" button (hidden on desktop, shown on mobile) */
+  .nav-toggle-label {
+    display: none;
+    cursor: pointer;
+    padding: 6px 10px;
+    border-radius: 4px;
+    border: 1px solid #d0d7de;
+    font-size: 0.95em;
+    user-select: none;
+  }
+
+  /* Links container */
+  .navbar-links {
+    display: flex;
+    gap: 20px;
+  }
+
+  /* ========== MOBILE STYLES ========== */
+  @media (max-width: 768px) {
+    .navbar {
+      justify-content: space-between;
+    }
+
+    .nav-toggle-label {
+      display: block;
+      margin-left: auto;
+    }
+
+    .navbar-links {
+      display: none;
+      flex-direction: column;
+      width: 100%;
+      margin-top: 8px;
+    }
+
+    /* When checkbox is checked, show links */
+    .nav-toggle:checked + .nav-toggle-label + .navbar-links {
+      display: flex;
+    }
+  }
 </style>
 
 <div class="navbar">
-  <a href="#about">About</a>
-  <a href="#research-interests">Research</a>
-  <a href="#whats-new">News</a>
-  <a href="#publications">Publications</a>
-  <a href="#talks">Talks</a>
-  <a href="#contact">Contact</a>
+  <input type="checkbox" id="nav-toggle" class="nav-toggle">
+  <label for="nav-toggle" class="nav-toggle-label">☰ Menu</label>
+
+  <div class="navbar-links">
+    <a href="#about">About</a>
+    <a href="#research-interests">Research</a>
+    <a href="#whats-new">News</a>
+    <a href="#publications">Publications</a>
+    <a href="#talks">Talks</a>
+    <a href="#service">Service</a>
+    <a href="#contact">Contact</a>
+  </div>
 </div>
 
+<!-- ========== HERO SECTION ========== -->
+
+<p align="center">
+  <img src="images/profile.jpeg" alt="Your Name" width="160" style="border-radius: 50%; margin-bottom: 10px;">
+</p>
+
+<!-- <h1 align="center">Sheikh Hefzul Bari</h1> -->
+<h1 align="center" style="font-weight: 700; margin-top: -10px;">Sheikh Hefzul Bari</h1>
+
+<p align="center">
+  <strong>PhD Candidate in Hydrology</strong> , Fukushima University, Japan  
+</p>
+
+<p align="center">
+  <em>Suspended sediment dynamics, Climate change, Compound flooding, River continuum.</em>
+</p>
+
+<p align="center">
+
+  <!-- Badges -->
+<a href="https://orcid.org/0000-0003-2635-2146" target="_blank">
+  <img src="https://img.shields.io/badge/ORCID-A6CE39?style=flat&logo=orcid&logoColor=white" alt="ORCID" style="cursor: pointer;">
+</a>
+
+<a href="https://www.researchgate.net/profile/Sheikh-Hefzul-Bari" target="_blank">
+  <img src="https://img.shields.io/badge/ResearchGate-00CCBB?style=flat&logo=researchgate&logoColor=white" alt="ResearchGate" style="cursor: pointer;">
+</a>
+
+<a href="https://scholar.google.com/citations?user=6c-lCXEAAAAJ&hl=en" target="_blank">
+  <img src="https://img.shields.io/badge/Google%20Scholar-4285F4?style=flat&logo=googlescholar&logoColor=white" alt="Google Scholar" style="cursor: pointer;">
+</a>
+
+<a href="https://www.linkedin.com/in/shbari" target="_blank">
+  <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white" alt="LinkedIn" style="cursor: pointer;">
+</a>
+
+<a href="https://github.com/shbari" target="_blank">
+  <img src="https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white" alt="GitHub" style="cursor: pointer;">
+</a>
+
+</p>
+
 ---
 
-<p align="center">
-  <img src="images/profile.jpeg" width="160" style="border-radius:50%; margin-bottom:10px;">
-</p>
+<!-- ========== About me ========== -->
 
-<h1 align="center" style="margin-top:-10px;">Sheikh Hefzul Bari</h1>
-
-<p align="center">
-  <strong>PhD Candidate in Hydrology</strong>, Fukushima University, Japan  
-</p>
-
-<p align="center">
-  <em>Suspended sediment dynamics • Climate change • Flooding • River continuum</em>
-</p>
-
-<p align="center">
-  <a href="https://orcid.org/0000-0003-2635-2146">
-    <img src="https://img.shields.io/badge/ORCID-A6CE39?style=flat&logo=orcid&logoColor=white">
-  </a>
-  <a href="https://www.researchgate.net/profile/Sheikh-Hefzul-Bari">
-    <img src="https://img.shields.io/badge/ResearchGate-00CCBB?style=flat&logo=researchgate&logoColor=white">
-  </a>
-  <a href="https://scholar.google.com/citations?user=6c-lCXEAAAAJ&hl=en">
-    <img src="https://img.shields.io/badge/Google_Scholar-4285F4?style=flat&logo=googlescholar&logoColor=white">
-  </a>
-  <a href="https://www.linkedin.com/in/shbari">
-    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white">
-  </a>
-  <a href="https://github.com/shbari">
-    <img src="https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white">
-  </a>
-</p>
-
----
-
-## <a name="about"></a> About
-
+## About {#about}
 <div style="text-align: justify;">
-I study hydrology and fluvial–coastal systems in a changing climate, focusing on how hydrological and geomorphological processes shape suspended sediment dynamics from mountain headwaters to river mouths.
-My research combines field observations, numerical models, and data-driven statistical analysis.
+I am passionate about studying hydrology and fluvial–coastal systems in a changing climate, focusing on how hydrological and geomorphological processes shape suspended sediment dynamics from mountain headwaters to river mouths. I also study extreme events and their impacts to develop data-driven assessment tools and resilience-focused adaptation strategies for climate-driven hazards.
 </div>
-
 <div style="text-align: justify;">
-I am currently a <b>PhD candidate at Fukushima University</b>, supervised by <b>Prof. Yoshiyuki Yokoo</b>.
+My work combines field observations, numerical models, and statistical analysis. I am currently a <b>PhD candidate at Fukushima University</b>, supervised by profesor <b>Yoshiyuki Yokoo</b>.
 </div>
 
 ---
 
-## <a name="research-interests"></a> Research interests
+<!-- ========== RESEARCH INTERESTS ========== -->
 
-- Climate change impact analysis  
-- Suspended sediment dynamics (from headwater to estuary)  
-- Flood hydrology (fluvial & pluvial)  
-- Numerical & statistical tools for hydro-sediment analysis  
+## Research interests {#research-interests}
+
+- Climate change and impact analysis
+- Suspended sediment dynamics (from headwater to river mouth)  
+- Fluvial and pluvial floods
+- Open source tools for hydro-sediment analysis
 
 ---
 
-## <a name="whats-new"></a> What's New
+<!-- ========== NEWS / HIGHLIGHTS ========== -->
 
+## What's New {#whats-new}
+<!-- Add a photo link here -->
 <p align="center">
-  <img src="images/IMG_4842.JPG" width="25%">
+  <img src="images/IMG_4842.JPG" alt="AOGS presentation" width="20%" />
 </p>
 
-**2025 —** Presented my ongoing research at the  
-*Asia Oceania Geosciences Society (AOGS)* Annual Meeting, Singapore.
+**2025** – I have presented my ongoing research at *Asia Oceania Geosciences Society (AOGS)* Annual Meeting in Singapore
 
 ---
 
-## <a name="publications"></a> Selected Publications
+<!-- ========== SELECTED PUBLICATIONS ========== -->
 
-1. **Bari SH**, Tateno M, Yokoo Y, Leong C (2025).  
-   *Dynamics, particle size distribution, and mineral composition of suspended sediment transport in the Abukuma River estuary.*  
-   Hydrological Research Letters, 19(1):51–57.  
-   [DOI](https://doi.org/10.3178/hrl.24-00028)
+## Selected publications {#publications}
 
-2. **Bari SH**, Yokoo Y, Leong C (2024).  
-   *Recent global trends in suspended sediment estimation studies.*  
-   Hydrological Research Letters, 18(2):51–57.  
-   [DOI](https://doi.org/10.3178/hrl.18.51)
+1. **S H Bari** , M Tateno, Y Yokoo,  C Leong (2025). Dynamics, particle size distribution and mineral composition of suspended sediment    transport in the Abukuma River estuary. *Hydrological Research Letters*, 19(1):51-57. [DOI](https://doi.org/10.3178/hrl.24-00028)
 
-3. Husna NEA, **Bari SH**, Islam GT, et al. (2024).  
-   *Modelling drought as a climate change indicator in coastal Bangladesh.*  
-   IJHST, 18(4):351–367.  
-   [DOI](https://doi.org/10.1504/IJHST.2024.142022)
+2. **Bari, SH.**, Yokoo, Y. and Leong, C. (2024). A brief review of recent global trends in suspended sediment estimation studies. *Hydrological Research Letters*, 18(2), pp.51-57. [DOI](https://doi.org/10.3178/hrl.18.51)
 
-4. **Bari SH**, Hoque MA, Rahman MT, Hussain MM (2016).  
-   *Seasonal and annual rainfall trends in northern Bangladesh.*  
-   Atmospheric Research, 176–177:148–158.  
-   [DOI](https://doi.org/10.1016/j.atmosres.2016.02.008)
+3. Husna, NEA., **Bari, SH.**, Islam, GT., Islam, AS. and Hussain, MM. (2024). Modelling drought as a climate change indicator in the southwest coastal region of Bangladesh. *Int. J. of Hydrology Science and Technology*, 18(4), pp.351-67. [DOI](https://doi.org/10.1504/IJHST.2024.142022)
 
-➡️ **Full publication list →**  
-https://sites.google.com/view/shbari/publications
+4. **Bari, SH.**, Hoque, MA., Rahman, MT. and Hussain, MM. (2016). Analysis of seasonal and annual rainfall trends in the northern region of Bangladesh. *Atmospheric Research*, 176-177, pp.148-158. [DOI](https://doi.org/10.1016/j.atmosres.2016.02.008)
+
+[**Full publication list with pdf access →**](https://sites.google.com/view/shbari/publications?authuser=0)
 
 ---
 
-## <a name="talks"></a> Talks & Outreach
+<!-- ========== PROJECTS & TOOLS ========== 
 
-- *A reconnaissance study on estuarine suspended sediment dynamics in the Abukuma River, Japan.*  
-  **Japan Geoscience Union (JpGU)** Meeting, 2025. (**Invited Talk**)
+## Projects & tools
+*Projects*
+- Estimating probable maximum precipitation for Bangladesh (2019)
+- Assessing climate change impact in Haor Basin of Bangladesh (2017)
+- Development of low-cost desalination device (2015)
 
-- *Suspended sediment in the Abukuma River estuary: Composition, particle size, hysteresis.*  
-  **AOGS 2025**, Singapore.
+*Research Tool*
+- **pyHomogeneity**: a python package for homogeneity test of time series data.
+
+
+--- -->
+
+<!-- ========== TEACHING & SUPERVISION ========== -->
+
+<!--## Teaching & supervision
+
+- **Teaching Assistant**, Advanced Hydrology (MSc), Your University (2023–present)  
+  - Led practical sessions on rainfall–runoff modeling and baseflow separation  
+  - Supervised student projects on sediment rating curves and uncertainty analysis  
+
+- **Guest Lecturer**, Environmental Data Analysis, 2024  
+  - Topic: Event-based SSC–Q relationships and hysteresis analysis with Python  
+
+---
+-->
+
+<!-- ========== TALKS & OUTREACH ========== -->
+
+## Talks & outreach {#talks}
+
+- A reconnaissance study on estuarine suspended sediment dynamics in the Abukuma River, Japan. *Japan Geoscience Union (JpGU)* Meeting 2025, Chiba, Japan. (**Invited Talk**)
+- Suspended sediment in the Abukuma River estuary, Japan: Composition, particle size, and hysteresis. *Asia Oceania Geosciences Society (AOGS)* Annual Meeting 2025, Marina Bay Sands, Singapore. 
 
 ---
 
-## Service & Memberships
+<!-- ========== SERVICE & MEMBERSHIPS ========== -->
 
-**Memberships**  
-1. Japan Society of Hydrology and Water Resources  
-2. Japan Geoscience Union (JpGU)  
-3. International Association of Hydrological Sciences (IAHS)
+## Service & memberships {#service}
+*Memberships* 
+1. Japan Society of Hydrology and Water Resources, Tokyo, Japan
+2. Japan Geoscience Union (JpGU), Tokyo, Japan
+3. International Association of Hydrological Sciences (IAHS), Wallingford, United Kingdom
 
-**Editorial Activity**  
+*Editorial Activities*
 - Reviewer for multiple peer-reviewed journals
 
 ---
 
-## <a name="contact"></a> Contact
+<!-- ========== CONTACT & FOOTER ========== -->
 
-<p align="center">
+## Contact {#contact}
+
+<div style="text-align: center;">
   <a href="mailto:s2371005@ipc.fukushima-u.ac.jp">
-    <img src="https://img.shields.io/badge/Email-Contact_Here-blue?style=flat" height="60">
+    <img src="https://img.shields.io/badge/Contact-Here-informational?style=flat" 
+         alt="Email" 
+         style="height: 60px;">
   </a>
-</p>
+</div>
 
----
-
-<div align="center" style="font-size:0.9em;">
-  © 2025 Sheikh Hefzul Bari • Licensed under  
-  <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>  
+<div style="text-align: center; font-size: 0.9em; margin-top: 20px;">
+  © 2025 Sheikh Hefzul Bari. Content licensed under 
+  <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener noreferrer">
+    CC BY 4.0
+  </a>.
 </div>
 
 <sub>Last updated: 2025-11-24</sub>
