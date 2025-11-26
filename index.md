@@ -211,7 +211,7 @@ I study hydrology and fluvial–coastal systems in a changing climate, focusing 
 
 <p align="center">
   <a href="mailto:s2371005@ipc.fukushima-u.ac.jp">
-    <img src="https://img.shields.io/badge/Email-Contact_Here-blue?style=flat" height="60">
+    <img src="https://img.shields.io/badge/Email-Contact_Here-blue?style=flat" height="40">
   </a>
 </p>
 
