@@ -1,5 +1,5 @@
 ---
-title: "Sheikh Hefzul Bari-Hydrology Researcher"
+title: "Sheikh Hefzul Bari"
 ---
 
 <!-- ========== TOP NAVBAR (RESPONSIVE & COLLAPSIBLE) ========== -->
