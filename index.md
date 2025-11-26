@@ -181,11 +181,9 @@ I study hydrology and fluvial–coastal systems in a changing climate, focusing 
 
 ## Talks & outreach {#talks}
 
-- A reconnaissance study on estuarine suspended sediment dynamics in the Abukuma River, Japan.  
-  *Japan Geoscience Union (JpGU) Meeting*, 2025 (Invited Talk)
+- A reconnaissance study on estuarine suspended sediment dynamics in the Abukuma River, Japan. *Japan Geoscience Union (JpGU) Meeting*, 2025 (Invited Talk)
 
-- Suspended sediment dynamics in the Abukuma River estuary: Composition, particle size, hysteresis.  
-  *AOGS Annual Meeting*, 2025, Singapore.
+- Suspended sediment dynamics in the Abukuma River estuary: Composition, particle size, hysteresis. *AOGS Annual Meeting*, 2025, Singapore.
 
 
 
