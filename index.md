@@ -1,6 +1,3 @@
-<!-- ---
-layout: none
---- -->
 ---
 title: "Sheikh Hefzul Bari"
 ---
