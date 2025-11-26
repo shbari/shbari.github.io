@@ -1,5 +1,5 @@
 ---
-title: "Sheikh Hefzul Bari"
+layout: none
 ---
 
 <!-- ========== TOP NAVBAR (RESPONSIVE & COLLAPSIBLE) ========== -->
