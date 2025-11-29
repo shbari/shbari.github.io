@@ -2,13 +2,6 @@
 title: "Sheikh Hefzul Bari"
 ---
 
-<!-- Social preview metadata -->
-<meta property="og:title" content="Sheikh Hefzul Bari – PhD Candidate in Hydrology">
-<meta property="og:description" content="Research in suspended sediment dynamics, climate impacts, compound flooding, and river–estuary processes.">
-<meta property="og:image" content="https://shbari.github.io/images/profile.jpeg">
-<meta property="og:url" content="https://shbari.github.io/">
-<meta property="og:type" content="website">
-
 <!-- ========== TOP NAVBAR (RESPONSIVE & COLLAPSIBLE) ========== -->
 <style>
   .navbar {
