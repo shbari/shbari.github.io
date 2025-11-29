@@ -9,7 +9,6 @@ title: "Sheikh Hefzul Bari"
 <meta property="og:url" content="https://shbari.github.io/">
 <meta property="og:type" content="website">
 
-
 <!-- ========== TOP NAVBAR (RESPONSIVE & COLLAPSIBLE) ========== -->
 <style>
   .navbar {
