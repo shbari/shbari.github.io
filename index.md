@@ -31,7 +31,7 @@ title: "Sheikh Hefzul Bari"
     <a href="#whats-new">News</a>
     <a href="#publications">Publications</a>
     <a href="#talks">Talks</a>
-    <a href="#service">Service</a>
+    <a href="#service">Services</a>
     <a href="#contact">Contact</a>
   </div>
 </div>
@@ -99,7 +99,7 @@ I study hydrology and fluvial–coastal systems in a changing climate, focusing 
 
 ---
 
-## Service
+## Services
 
 **Memberships**  
 1. Japan Society of Hydrology and Water Resources  
