@@ -29,7 +29,7 @@ title: "Sheikh Hefzul Bari"
     <a href="#about">About</a>
     <a href="#research-interests">Research</a>
     <a href="#whats-new">News</a>
-    <a href="#publications">Publications</a>
+    <a href="#Selected-publications">Publications</a>
     <a href="#talks">Talks</a>
     <a href="#service">Services</a>
     <a href="#contact">Contact</a>
@@ -81,7 +81,7 @@ I study hydrology and fluvial–coastal systems in a changing climate, focusing 
 
 ---
 
-## Publications
+## Selected Publications
 
 1. **S H Bari**, M Tateno, Y Yokoo, C Leong (2025). Dynamics, particle size distribution and mineral composition of suspended sediment transport in the Abukuma River estuary. *Hydrological Research Letters*, 19(1):51–57. [DOI](https://doi.org/10.3178/hrl.24-00028)  
 2. **Bari SH**, Yokoo Y, Leong C (2024). Recent global trends in suspended sediment estimation studies. *Hydrological Research Letters*, 18(2):51–57. [DOI](https://doi.org/10.3178/hrl.18.51)  
