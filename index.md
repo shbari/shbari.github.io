@@ -72,7 +72,7 @@ I study hydrology and fluvial–coastal systems in a changing climate, focusing 
 ---
 
 ## What's New
-**2025 —**  
+**2025 —**  A new paper titled
 **“Temporal dynamics and threshold behaviors of suspended sediment transport in the Abukuma River, Japan”**  
 _Hydrological Research Letters_
 <div style="text-align: center;">
