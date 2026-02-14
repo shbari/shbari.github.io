@@ -72,14 +72,14 @@ I study hydrology and fluvial–coastal systems in a changing climate, focusing 
 ---
 
 ## What's New
-- **2026/02/09 —**  A new paper titled **“Improving Rainfall-Runoff-Inundation Model for realistic representations of main river with levees”** is accepted for publication in _Hydrological Research Letters_.
+**2026/02/09 —**  A new paper titled **“Improving Rainfall-Runoff-Inundation Model for realistic representations of main river with levees”** is accepted for publication in _Hydrological Research Letters_.
 
-- **2025 —**  A new paper titled **“Temporal dynamics and threshold behaviors of suspended sediment transport in the Abukuma River, Japan”** is accepted for publication in _Hydrological Research Letters_.
+**2025 —**  A new paper titled **“Temporal dynamics and threshold behaviors of suspended sediment transport in the Abukuma River, Japan”** is accepted for publication in _Hydrological Research Letters_.
 <div style="text-align: center;">
   <img src="images/IMG_4842.JPG" alt="AOGS presentation" width="25%">
 </div>
 
-- **2025 —** Presented my ongoing research at the *Asia Oceania Geosciences Society (AOGS)* Annual Meeting in Singapore.
+**2025 —** Presented my ongoing research at the *Asia Oceania Geosciences Society (AOGS)* Annual Meeting in Singapore.
 
 ---
 
