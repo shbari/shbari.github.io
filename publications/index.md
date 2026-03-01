@@ -31,17 +31,17 @@
 15. Bari, SH., Rahman, MT., Hussain, MM. and Ray, S. (2015). Forecasting Monthly Precipitation in Sylhet City Using ARIMA Model. Civil and Environmental Research, 7(1), 69-77. [Link](https://www.researchgate.net/publication/272743075_Forecasting_Monthly_Precipitation_in_Sylhet_City_Using_ARIMA_Model)
 
 ## Book Chapters
-1. M M Hussain, S H Bari, I Mahmud, and M I H Siddiquee (2021). Application of different artificial neural network for streamflow forecasting. In Advances in Streamflow Forecasting — from Traditional to Modern Approaches. Elsevier Limited, Oxford, UK. [Link](https://doi.org/10.1016/B978-0-12-820673-7.00006-8)
+1. N E Alias, S H Bari, R Paramasivam, and F N Abdullah (2023). Computations of probable maximum precipitation estimates. In Handbook of Hydroinformatics- Advances in Machine Learning Techniques, Elsevier. [Link](https://doi.org/10.1016/B978-0-12-821961-4.00014-2)
 
-2. N E Alias, S H Bari, R Paramasivam, and F N Abdullah (2023). Computations of probable maximum precipitation estimates. In Handbook of Hydroinformatics- Advances in Machine Learning Techniques, Elsevier. [Link](https://doi.org/10.1016/B978-0-12-821961-4.00014-2)
+2. M M Hussain, S H Bari, I Mahmud, and M I H Siddiquee (2021). Application of different artificial neural network for streamflow forecasting. In Advances in Streamflow Forecasting — from Traditional to Modern Approaches. Elsevier Limited, Oxford, UK. [Link](https://doi.org/10.1016/B978-0-12-820673-7.00006-8)
 
 ## Conference Papers
 1. S H Bari, Y Yoko, and N Husna (2022). Exploring Changes in Rainfall Seasonality and Variability in Bangladesh.  Proceeding of 2022 Annual Conference, Japan Society of Hydrology and Water Resources (JSHWR) and Japanese Association of Hydrological Sciences (JAHS), held on 4-7 September, 2022, Kyoto University, Japan. 
 
 2. Ishtiak Mahmud, S H Bari, M M Hussain, and M T Rahman (2015). Homogeneity of Rainfall and Temperature Series in Bangladesh. Published in the International Conference on Climate Change and Water Security (ICCWS 2015), held in 27th December, 2015, MIST, Dhaka, Bangladesh.
 
-3. Md. S Islam, K M Khaledduzzaman, and S H Bari (2011). Implementation of RWH in Sylhet city to save power and cost. Published in the Proceedings of the International Conference on Environmental Technology & Construction Engineering for Sustainable Development   (ICETCESD)-2011,   held   in   March   10-12,   2011,   SUST,   Sylhet-3114, Bangladesh.
+3. S H Bari, M A Hoque, M T Rahman, and M M Hussain (2014). Rainfall trend and feasibility of Urban Rainwater Harvesting in Sylhet city. Published in the Regional conference on development approaches for WaSH Implementation 2014, held in 24 March, 2014, SUST, Sylhet, Bangladesh.   
 
 4. 5B.  K.  Banik, M.T.  Rahman, P. Biswas, S H Bari, A.  Khatun, D.  Plath, W.  Schneider, and M. A.  Hoque (2012). An  application  of  Matlab-based  model  to  assess  the  interaction  of  tidal  fluctuation  and groundwater  near  the  Rupsha  river,  Khulna. Published	in   the Proceedings  (Abstract)   of   1st International  Conference  on  Advances  in  Civil  Engineering  2012, held in 12 –14 December, 2012, CUET, Chittagong, Bangladesh.
 
-5. S H Bari, M A Hoque, M T Rahman, and M M Hussain (2014). Rainfall trend and feasibility of Urban Rainwater Harvesting in Sylhet city. Published in the Regional conference on development approaches for WaSH Implementation 2014, held in 24 March, 2014, SUST, Sylhet, Bangladesh.   
+5. Md. S Islam, K M Khaledduzzaman, and S H Bari (2011). Implementation of RWH in Sylhet city to save power and cost. Published in the Proceedings of the International Conference on Environmental Technology & Construction Engineering for Sustainable Development   (ICETCESD)-2011,   held   in   March   10-12,   2011,   SUST,   Sylhet-3114, Bangladesh.
