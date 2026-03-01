@@ -29,8 +29,8 @@ title: "Sheikh Hefzul Bari"
     <a href="#about">About</a>
     <a href="#research-interests">Research</a>
     <a href="#whats-new">News</a>
-    <a href="files/publications.html">Publications</a>
-    <a href="files/talks.html">Talks</a>
+    <a href="publications/">Publications</a>
+    <a href="talks/">Talks</a>
     <a href="#services">Services</a>
     <a href="#contact">Contact</a>
   </div>
