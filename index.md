@@ -70,7 +70,9 @@ I study hydrology and fluvial–coastal systems in a changing climate, focusing 
 - Open-source tools for hydro-sediment analysis  
 <div style="display:flex; overflow-x:auto; gap:25px; scroll-snap-type:x mandatory; scroll-behavior:smooth; padding:10px 0;">
 <div style="display:flex; overflow-x:auto; gap:25px; scroll-snap-type:x mandatory; scroll-behavior:smooth; padding:10px 0;">
+  </div>
 
+</div>
 ---
 
 ## What's New
