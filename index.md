@@ -112,7 +112,7 @@ I study hydrology and fluvial–coastal systems in a changing climate, focusing 
   </div>
 
   <div style="text-align:center; min-width:85%; scroll-snap-align:center;">
-    <img src="images/e2.jpeg"
+    <img src="images/profile.jpeg"
          alt="Experiment 2"
          style="width:100%; max-width:700px; border-radius:10px;">
     <p>
