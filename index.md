@@ -84,6 +84,33 @@ I study hydrology and fluvial–coastal systems in a changing climate, focusing 
 **2025 —** Presented my ongoing research at the *Asia Oceania Geosciences Society (AOGS)* Annual Meeting in Singapore.
 
 ---
+<div style="display:flex;
+            overflow-x:auto;
+            gap:25px;
+            scroll-snap-type:x mandatory;
+            scroll-behavior:smooth;
+            padding:10px 0;
+            scrollbar-width:none;">
+  
+  <div style="text-align:center; min-width:80%; scroll-snap-align:center;">
+    <img src="images/e1.jpeg" alt="Caption 1 image"
+         style="width:100%; max-width:600px; border-radius:10px;">
+    <p><b>Caption 1</b><br>Short description here.</p>
+  </div>
+
+  <div style="text-align:center; min-width:80%; scroll-snap-align:center;">
+    <img src="images/e2.jpeg" alt="Caption 2 image"
+         style="width:100%; max-width:600px; border-radius:10px;">
+    <p><b>Caption 2</b><br>Short description here.</p>
+  </div>
+
+  <div style="text-align:center; min-width:80%; scroll-snap-align:center;">
+    <img src="images/e3.jpeg" alt="Caption 3 image"
+         style="width:100%; max-width:600px; border-radius:10px;">
+    <p><b>Caption 3</b><br>Short description here.</p>
+  </div>
+
+</div>
 
 ## Services
 
@@ -108,6 +135,10 @@ I study hydrology and fluvial–coastal systems in a changing climate, focusing 
     © 2025 Sheikh Hefzul Bari • Licensed under  
     <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>
   </div>
+
+  <sub>Last updated: 2026-02-14</sub>
+</div>
+
 
   <sub>Last updated: 2026-02-28</sub>
 </div>
