@@ -18,7 +18,8 @@
 
 9. Bari SH. (2021). Estimating probable maximum precipitation for Bangladesh. Int. J. Hydrology Science and Technology, 11(4), pp.415-421. [Link](https://doi.org/10.1504/IJHST.2021.115489)
 
-10. Bari, SH., Hussain, MM. and Husna, NEA. (2017). Rainfall variability and seasonality in northern Bangladesh. Theoretical and Applied Climatology, 129(3-4), pp.995-1001. [Link](https://doi.org/10.1007/s00704-016-1823-9)
+10. Bari, SH., Hussain, MM. and Husna, NEA. (2017). Rainfall variability and seasonality in northern Bangladesh. Theoretical and Applied Climatology, 129(3-4), pp.995-1001. [Link](../files
+/2017_Bari_et_al.pdf)
 
 11. Mahmud, I., Bari, SH. and Rahman, MT. (2017). Monthly rainfall forecast of Bangladesh using autoregressive integrated moving average method. Environmental Engineering Research, 22(2), pp.162-168. [Link](https://doi.org/10.4491/eer.2016.075)
 
