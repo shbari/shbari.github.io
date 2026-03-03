@@ -86,55 +86,6 @@ I study hydrology and fluvial–coastal systems in a changing climate, focusing 
 **2025 —** Presented my ongoing research at the *Asia Oceania Geosciences Society (AOGS)* Annual Meeting in Singapore.
 
 ---
-<br>
-
-<p align="center"><sub>Swipe / Scroll to view more</sub></p>
-
-<div align="center">
-
-<div style="
-  display:flex;
-  overflow-x:auto;
-  gap:40px;
-  scroll-snap-type:x mandatory;
-  scroll-behavior:smooth;
-  padding:30px 0;
-">
-
-  <div style="text-align:center; min-width:85%; scroll-snap-align:center;">
-    <img src="images/e1.jpeg"
-         alt="Experiment 1"
-         style="width:100%; max-width:700px; border-radius:10px;">
-    <p>
-      <b>Experiment 1 — Title</b><br>
-      <sub>Short technical description (method, dataset, or result highlight).</sub>
-    </p>
-  </div>
-
-  <div style="text-align:center; min-width:85%; scroll-snap-align:center;">
-    <img src="images/profile.jpeg"
-         alt="Experiment 2"
-         style="width:100%; max-width:700px; border-radius:10px;">
-    <p>
-      <b>Experiment 2 — Title</b><br>
-      <sub>Short technical description (metric improvement, contribution, etc.).</sub>
-    </p>
-  </div>
-
-  <div style="text-align:center; min-width:85%; scroll-snap-align:center;">
-    <img src="images/e3.jpeg"
-         alt="Experiment 3"
-         style="width:100%; max-width:700px; border-radius:10px;">
-    <p>
-      <b>Experiment 3 — Title</b><br>
-      <sub>Short technical description (application or validation study).</sub>
-    </p>
-  </div>
-
-</div>
-
-</div>
-<br>
 
 ## Services
 
