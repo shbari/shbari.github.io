@@ -70,22 +70,6 @@ I study hydrology and fluvial–coastal systems in a changing climate, focusing 
 - Open-source tools for hydro-sediment analysis  
 <div style="display:flex; overflow-x:auto; gap:25px; scroll-snap-type:x mandatory; scroll-behavior:smooth; padding:10px 0;">
 
-  <div style="text-align:center; min-width:80%; scroll-snap-align:center;">
-    <img src="images/e1.jpg" alt="Caption 1 image" style="width:100%; max-width:600px; border-radius:10px;">
-    <p><b>Caption 1</b><br>Short description here.</p>
-  </div>
-
-  <div style="text-align:center; min-width:80%; scroll-snap-align:center;">
-    <img src="images/e2.jpg" alt="Caption 2 image" style="width:100%; max-width:600px; border-radius:10px;">
-    <p><b>Caption 2</b><br>Short description here.</p>
-  </div>
-
-  <div style="text-align:center; min-width:80%; scroll-snap-align:center;">
-    <img src="images/e3.jpg" alt="Caption 3 image" style="width:100%; max-width:600px; border-radius:10px;">
-    <p><b>Caption 3</b><br>Short description here.</p>
-  </div>
-
-</div>
 ---
 
 ## What's New
