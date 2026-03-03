@@ -68,7 +68,24 @@ I study hydrology and fluvial–coastal systems in a changing climate, focusing 
 - Suspended sediment dynamics (from mountains to estuary)  
 - Fluvial and pluvial flooding  
 - Open-source tools for hydro-sediment analysis  
+<div style="display:flex; overflow-x:auto; gap:25px; scroll-snap-type:x mandatory; padding:10px 0;">
 
+  <div style="text-align:center; min-width:80%; scroll-snap-align:center;">
+    <img src="images/profile.jpg" style="width:100%; max-width:600px; border-radius:10px;">
+    <p><b>Caption 1</b><br>Short description here.</p>
+  </div>
+
+  <div style="text-align:center; min-width:80%; scroll-snap-align:center;">
+    <img src="images/profile.jpg" style="width:100%; max-width:600px; border-radius:10px;">
+    <p><b>Caption 2</b><br>Short description here.</p>
+  </div>
+
+  <div style="text-align:center; min-width:80%; scroll-snap-align:center;">
+    <img src="images/profile.jpg" style="width:100%; max-width:600px; border-radius:10px;">
+    <p><b>Caption 3</b><br>Short description here.</p>
+  </div>
+
+</div>
 ---
 
 ## What's New
