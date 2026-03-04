@@ -112,9 +112,5 @@ I study hydrology and fluvial–coastal systems in a changing climate, focusing 
     <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>
   </div>
 
-  <sub>Last updated: 2026-02-14</sub>
-</div>
-
-
-  <sub>Last updated: 2026-02-28</sub>
+  <sub>Last updated: 2026-03-04</sub>
 </div>
