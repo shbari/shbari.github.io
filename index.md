@@ -103,7 +103,7 @@ I study hydrology and fluvial–coastal systems in a changing climate, focusing 
 ## Contact
 
 <div style="text-align: center;">
-  <a href="mailto:s2371005@ipc.fukushima-u.ac.jp">
+  <a href="mailto:shbari.bd@gmail.com">
     <img src="https://img.shields.io/badge/Email-Contact_Here-blue?style=flat" height="60">
   </a>
   
@@ -112,5 +112,5 @@ I study hydrology and fluvial–coastal systems in a changing climate, focusing 
     <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>
   </div>
 
-  <sub>Last updated: 2026-03-04</sub>
+  <sub>Last updated: 2026-03-16</sub>
 </div>
