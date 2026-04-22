@@ -42,7 +42,7 @@ title: "Sheikh Hefzul Bari"
   <h1 style="font-weight: 700; margin-top: -10px;">Sheikh Hefzul Bari</h1>
   
   <p>
-    <strong>PhD Candidate in Hydrology</strong>, Fukushima University, Japan<br>
+    <strong>Assistant Professor (Specially appointed)</strong>, Tohoku University, Japan<br>
     <em>Suspended sediment dynamics • Climate change • Compound flooding • River continuum</em>
   </p>
 
@@ -57,7 +57,7 @@ title: "Sheikh Hefzul Bari"
 ## About
 
 <div style="text-align: justify;">
-I study hydrology and fluvial–coastal systems in a changing climate, focusing on how hydrological and geomorphological processes shape suspended sediment dynamics from mountain headwaters to river mouths. My research also explores extreme events, with the aim of developing data-driven hazard assessment tools and resilience-oriented adaptation strategies. I am currently a <strong>PhD candidate at Fukushima University</strong>, supervised by <strong>Prof. Yoshiyuki Yokoo</strong>.
+I study hydrology and fluvial–coastal systems in a changing climate, focusing on how hydrological and geomorphological processes shape suspended sediment dynamics from mountain headwaters to river mouths. My research also explores extreme events, with the aim of developing data-driven hazard assessment tools and resilience-oriented adaptation strategies. I am currently working as a <strong> Specially appointed Assistant Professor at Tohoku University</strong>.
 </div>
 
 ---
