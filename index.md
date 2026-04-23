@@ -79,9 +79,8 @@ I study hydrology and fluvial–coastal systems in a changing climate, focusing 
 ## What's New
 <span style="color:red">**Just published!**</span>
 
-**2026/03/20 —**  Our latest paper  **“Temporal dynamics and threshold behaviors of suspended sediment transport in the Abukuma River, Japan”** is published today in _Hydrological Research Letters_.
+**2026/04/18 —**  Our latest paper  **“Improving rainfall-runoff-inundation model for realistic representations of main river with levees”** is published in _Hydrological Research Letters_.
 
-**2026/02/09 —**  A new paper titled **“Improving Rainfall-Runoff-Inundation Model for realistic representations of main river with levees”** is accepted for publication in _Hydrological Research Letters_.
 
 <div style="text-align: center;">
   <img src="images/IMG_4842.JPG" alt="AOGS presentation" width="25%">
@@ -106,7 +105,7 @@ I study hydrology and fluvial–coastal systems in a changing climate, focusing 
 ## Contact
 
 <div style="text-align: center;">
-  <a href="mailto:shbari.bd@gmail.com">
+  <a href="mailto:sheikh.bari@tohoku.ac.jp">
     <img src="https://img.shields.io/badge/Email-Contact_Here-blue?style=flat" height="60">
   </a>
   
@@ -115,5 +114,5 @@ I study hydrology and fluvial–coastal systems in a changing climate, focusing 
     <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>
   </div>
 
-  <sub>Last updated: 2026-03-16</sub>
+  <sub>Last updated: 2026-04-23</sub>
 </div>
