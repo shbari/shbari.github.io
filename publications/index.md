@@ -1,6 +1,6 @@
 ## Journal Publications
 
-1. Ugajin R, Yokoo Y, Sayama T, Bari, SH. and Leong C (2026). Improving Rainfall-Runoff-Inundation Model for realistic representations of main river with levees. Hydrological Research Letters. Hydrological Research Letters,20(2), pp.127-134. [pdf](https://www.jstage.jst.go.jp/article/hrl/20/2/20_127/_pdf/-char/en)
+1. Ugajin R, Yokoo Y, Sayama T, Bari, SH. and Leong C (2026). Improving Rainfall-Runoff-Inundation Model for realistic representations of main river with levees. Hydrological Research Letters,20(2), pp.127-134. [pdf](https://www.jstage.jst.go.jp/article/hrl/20/2/20_127/_pdf/-char/en)
 
 2. Bari, SH., Yokoo, Y. and Leong, C. (2026). Temporal dynamics and threshold behaviors of suspended sediment transport in the Abukuma River, Japan. Hydrological Research Letters, 20(1), pp.60-66. [pdf](https://www.jstage.jst.go.jp/article/hrl/20/1/20_60/_pdf/-char/en)
 
