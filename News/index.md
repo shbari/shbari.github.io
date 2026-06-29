@@ -20,7 +20,7 @@ This study improves hydrological model representation of river levees to better 
 ### Image
 
 <p align="center">
-  <img src="images/IMG_4842.JPG" alt="AOGS presentation" width="500" style="border-radius:12px;">
+  <img src="./images/IMG_4842.JPG" alt="AOGS presentation" width="500" style="border-radius:12px;">
 </p>
 
 <p align="center" style="font-size:0.85rem; color:#777;">
