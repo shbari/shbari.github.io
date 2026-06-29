@@ -50,6 +50,8 @@ title: "Sheikh Hefzul Bari"
   <a href="https://www.researchgate.net/profile/Sheikh-Hefzul-Bari" target="_blank"><img src="https://img.shields.io/badge/ResearchGate-00CCBB?style=flat&logo=researchgate&logoColor=white"></a>
   <a href="https://scholar.google.com/citations?user=6c-lCXEAAAAJ&hl=en" target="_blank"><img src="https://img.shields.io/badge/Google_Scholar-4285F4?style=flat&logo=googlescholar&logoColor=white"></a>
   <a href="https://www.linkedin.com/in/shbari" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white"></a>
+  <a href="mailto:bari.sheikh.hefzul.d5@tohoku.ac.jp">
+  <img src="https://img.shields.io/badge/Get_in_touch-EA4335?style=flat&logo=gmail&logoColor=white" alt="Get in touch"></a>
 </div>
 
 ---
@@ -90,24 +92,6 @@ I study hydrology and fluvial–coastal systems in a changing climate, focusing 
 
 ---
 
-## Services
-
-**Memberships**  
-1. Japan Society of Hydrology and Water Resources  
-2. Japan Geoscience Union (JpGU)  
-3. International Association of Hydrological Sciences (IAHS)
-
-**Editorial Activities**  
-- Reviewer for multiple peer-reviewed journals
-
----
-
-## Contact
-
-<div style="text-align: center;">
-  <a href="mailto:bari.sheikh.hefzul.d5@tohoku.ac.jp">
-    <img src="https://img.shields.io/badge/Email-Contact_Here-blue?style=flat" height="60">
-  </a>
   
   <div style="font-size: 0.9em; margin-top: 20px;">
     © 2025 Sheikh Hefzul Bari • Licensed under  
