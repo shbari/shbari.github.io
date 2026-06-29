@@ -42,7 +42,7 @@ title: "Sheikh Hefzul Bari"
   <h1 style="font-weight: 700; margin-top: -10px;">Sheikh Hefzul Bari</h1>
   
   <p>
-    <strong>Assistant Professor (Specially appointed)</strong>, Tohoku University, Japan<br>
+    <strong>Assistant Professor (Research)</strong>, Tohoku University, Japan<br>
     <em>Suspended sediment dynamics • Climate change • Compound flooding • River continuum</em>
   </p>
 
@@ -114,5 +114,5 @@ I study hydrology and fluvial–coastal systems in a changing climate, focusing 
     <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>
   </div>
 
-  <sub>Last updated: 2026-05-12</sub>
+  <sub>Last updated: 2026-06-29</sub>
 </div>
