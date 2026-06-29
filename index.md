@@ -77,20 +77,6 @@ I study hydrology and fluvial–coastal systems in a changing climate, focusing 
 
 ---
 
-## What's New
-<span style="color:red">**Just published!**</span>
-
-**2026/04/18 —**  Our latest paper  **“Improving rainfall-runoff-inundation model for realistic representations of main river with levees”** is published in _Hydrological Research Letters_.
-
-
-<div style="text-align: center;">
-  <img src="images/IMG_4842.JPG" alt="AOGS presentation" width="25%">
-</div>
-
-**2025 —** Presented my ongoing research at the *Asia Oceania Geosciences Society (AOGS)* Annual Meeting in Singapore.
-
----
-
   <div style="text-align: center; margin-top: 30px; font-size: 0.9em; color: #666;">
   <p style="margin-bottom: 6px;">
     © 2026 Sheikh Hefzul Bari | Licensed under
