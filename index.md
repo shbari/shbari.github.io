@@ -91,11 +91,15 @@ I study hydrology and fluvial–coastal systems in a changing climate, focusing 
 
 ---
 
-  
-  <div style="font-size: 0.9em; margin-top: 20px;">
-    © 2025 Sheikh Hefzul Bari • Licensed under  
-    <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>
-  </div>
+  <div style="text-align: center; margin-top: 30px; font-size: 0.9em; color: #666;">
+  <p style="margin-bottom: 6px;">
+    © 2026 Sheikh Hefzul Bari · Licensed under
+    <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank">
+      CC BY 4.0
+    </a>
+  </p>
 
-  <sub>Last updated: 2026-06-29</sub>
+  <p style="margin: 0;">
+    <small>Last updated: 29 June 2026</small>
+  </p>
 </div>
