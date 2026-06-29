@@ -5,19 +5,12 @@ Just published
 </span>
 
 ---
-
-### Featured Publication
-
-**2026 · Journal Publication**
-
-**“Improving rainfall–runoff–inundation model for realistic representations of main river with levees”**
-
-Published in *Hydrological Research Letters*.  
+**2026**
+**“Improving rainfall–runoff–inundation model for realistic representations of main river with levees”** Published in *Hydrological Research Letters*.  
 This study improves hydrological model representation of river levees to better simulate flood dynamics in regulated river systems.
-
 ---
 
-### Image
+###
 
 <p align="center">
   <img src="../images/IMG_4842.JPG" alt="AOGS presentation" width="500" style="border-radius:12px;">
