@@ -28,7 +28,7 @@ title: "Sheikh Hefzul Bari"
   <div class="navbar-links">
     <a href="#about">About</a>
     <a href="#research-interests">Research</a>
-    <a href="#whats-new">News</a>
+    <a href="news/">News</a>
     <a href="publications/">Publications</a>
     <a href="talks/">Talks</a>
     <a href="#services">Services</a>
