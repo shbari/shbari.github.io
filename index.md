@@ -32,7 +32,6 @@ title: "Sheikh Hefzul Bari"
     <a href="publications/">Publications</a>
     <a href="talks/">Talks</a>
     <a href="#services">Services</a>
-    <a href="#contact">Contact</a>
   </div>
 </div>
 
