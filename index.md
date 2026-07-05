@@ -30,7 +30,7 @@ title: "Sheikh Hefzul Bari"
     <a href="#whats-new">News</a>
     <a href="#publications">Publications</a>
     <a href="#talks">Talks</a>
-    <a href="#cv">CV</a>
+    <a href="cv">CV</a>
   </div>
 </div>
 
