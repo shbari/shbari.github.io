@@ -41,7 +41,7 @@ title: "Sheikh Hefzul Bari"
   <h1 style="font-weight: 700; margin-top: -10px;">Sheikh Hefzul Bari</h1>
   
   <p>
-    <strong>Assistant Professor (Research)</strong>, Tohoku University, Japan<br>
+    <strong> Specially Appointed Assistant Professor (Research)</strong>, Tohoku University, Japan<br>
     <em>Suspended sediment dynamics • Climate change • Compound flooding • River continuum</em>
   </p>
 
