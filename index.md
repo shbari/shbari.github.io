@@ -28,10 +28,9 @@ title: "Sheikh Hefzul Bari"
     <a href="#about">About</a>
     <a href="#research-interests">Research</a>
     <a href="#whats-new">News</a>
-    <a href="#selected-publications">Publications</a>
+    <a href="#publications">Publications</a>
     <a href="#talks">Talks</a>
-    <a href="#services">Services</a>
-    <a href="#contact">Contact</a>
+    <a href="#cv">CV</a>
   </div>
 </div>
 
