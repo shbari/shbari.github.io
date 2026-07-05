@@ -31,7 +31,7 @@ title: "Sheikh Hefzul Bari"
     <a href="News/">News</a>
     <a href="publications/">Publications</a>
     <a href="talks/">Talks</a>
-    <a href="#services">Services</a>
+    <a href="cv/index.html">CV</a>
   </div>
 </div>
 
