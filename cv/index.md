@@ -2,6 +2,14 @@
 layout: null
 ---
 <link rel="stylesheet" href="style.css">
+<script>
+    function printCV() {
+        const originalTitle = document.title;
+        document.title = "CV_Sheikh_Hefzul_Bari";
+        window.print();
+        document.title = originalTitle;
+    }
+</script>
 
 <div class="export-btn-container">
     <button class="export-button" onclick="window.print()">↓ Export as PDF</button>
