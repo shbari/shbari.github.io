@@ -23,16 +23,20 @@ title: "Sheikh Hefzul Bari"
 </style>
 
 <div class="navbar">
-  <input type="checkbox" id="nav-toggle" class="nav-toggle">
-  <label for="nav-toggle" class="nav-toggle-label">☰ Menu</label>
-  <div class="navbar-links">
-    <a href="#about">About</a>
-    <a href="#research-interests">Research</a>
-    <a href="News/">News</a>
-    <a href="publications/">Publications</a>
-    <a href="talks/">Talks</a>
-    <a href="cv/">CV</a>
-  </div>
+    <input type="checkbox" id="nav-toggle" class="nav-toggle">
+
+    <label for="nav-toggle" class="nav-toggle-label">
+        ☰ Menu
+    </label>
+
+    <div class="navbar-links">
+        <a href="#about">About</a>
+        <a href="#research-interests">Research</a>
+        <a href="News/">News</a>
+        <a href="publications/">Publications</a>
+        <a href="talks/">Talks</a>
+        <a href="cv/">CV</a>
+    </div>
 </div>
 
 <div style="text-align: center;">
