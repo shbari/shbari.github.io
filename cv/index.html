@@ -1,18 +1,261 @@
----
-layout: null
----
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CV_Sheikh_Hefzul_Bari</title>
-    
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,400;0,600;0,700;1,400&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
-    
-    <link rel="stylesheet" href="style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:wght=400;600;700&family=JetBrains+Mono:wght=400;500&display=swap');
+
+        :root {
+            --primary-color: #000000;
+            --text-color: #111111;
+            --subtext-color: #444444;
+            --hydro-blue: #0369a1; 
+            --border-color: #111111;
+            --light-border: #cbd5e1;
+            --bg-color: #ffffff;
+        }
+
+        body {
+            font-family: 'Crimson Pro', 'Times New Roman', Georgia, serif;
+            color: var(--text-color);
+            background-color: var(--bg-color);
+            line-height: 1.45;
+            margin: 0;
+            padding: 40px 50px;
+            font-size: 16px;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        .cv-container {
+            max-width: 820px;
+            margin: 0 auto;
+            position: relative;
+        }
+
+        /* Action button container */
+        .export-btn-container {
+            text-align: right;
+            max-width: 820px;
+            margin: 0 auto 20px auto;
+        }
+
+        .export-button {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 12px;
+            font-weight: 500;
+            background-color: var(--primary-color);
+            color: #ffffff;
+            border: 1px solid var(--primary-color);
+            padding: 8px 14px;
+            cursor: pointer;
+            border-radius: 4px;
+            transition: all 0.2s ease;
+        }
+
+        .export-button:hover {
+            background-color: var(--hydro-blue);
+            border-color: var(--hydro-blue);
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 35px;
+        }
+
+        h1 {
+            font-size: 32px;
+            font-weight: 700;
+            color: var(--primary-color);
+            margin: 0 0 6px 0;
+            letter-spacing: -0.5px;
+        }
+
+        .affiliation {
+            font-size: 18px;
+            font-weight: 600;
+            color: var(--hydro-blue);
+            letter-spacing: 0.1px;
+            margin-bottom: 12px;
+        }
+
+        .contact-grid {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 12px;
+            color: var(--subtext-color);
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            flex-wrap: wrap;
+        }
+
+        .contact-grid a {
+            color: var(--text-color);
+            text-decoration: none;
+            border-bottom: 1px dotted var(--subtext-color);
+        }
+
+        .contact-grid a:hover {
+            border-bottom: 1px solid var(--hydro-blue);
+            color: var(--hydro-blue);
+        }
+
+        section {
+            margin-bottom: 25px;
+        }
+
+        h2 {
+            font-size: 16px;
+            font-weight: 700;
+            text-transform: uppercase;
+            color: var(--primary-color);
+            border-bottom: 1.5px solid var(--border-color);
+            padding-bottom: 3px;
+            margin: 0 0 16px 0;
+            letter-spacing: 1px;
+        }
+
+        h3 {
+            font-size: 15px;
+            font-weight: 700;
+            text-transform: uppercase;
+            color: var(--subtext-color);
+            margin: 15px 0 10px 0;
+            letter-spacing: 0.5px;
+        }
+
+        .section-count {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 12px;
+            font-weight: 400;
+            color: var(--subtext-color);
+            text-transform: none;
+            float: right;
+            margin-top: 3px;
+        }
+
+        .cv-entry {
+            display: grid;
+            grid-template-columns: 110px 1fr;
+            margin-bottom: 16px;
+            gap: 10px;
+        }
+
+        .cv-date {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 13px;
+            color: var(--subtext-color);
+            font-weight: 500;
+            padding-top: 2px;
+        }
+
+        .cv-content {
+            font-size: 16px;
+        }
+
+        .cv-title {
+            font-weight: 700;
+            color: var(--primary-color);
+        }
+
+        .cv-institution {
+            font-weight: 600;
+            color: var(--subtext-color);
+        }
+
+        .cv-meta {
+            font-style: italic;
+            font-size: 15px;
+            color: var(--subtext-color);
+            margin-top: 2px;
+        }
+
+        .details-list {
+            margin: 6px 0 0 0;
+            padding-left: 18px;
+            font-size: 15px;
+            color: var(--subtext-color);
+        }
+
+        .details-list li {
+            margin-bottom: 4px;
+            text-align: justify;
+        }
+
+        ol.publications {
+            margin: 0;
+            padding-left: 20px;
+        }
+
+        ol.publications li {
+            margin-bottom: 10px;
+            font-size: 15px;
+            text-align: justify;
+            padding-left: 4px;
+            color: var(--text-color);
+        }
+
+        .author-self {
+            font-weight: 700;
+            text-decoration: underline;
+            color: var(--primary-color);
+        }
+
+        .journal-name {
+            font-style: italic;
+        }
+
+        .journal-metric {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 11px;
+            background: #f1f5f9;
+            padding: 1px 5px;
+            border-radius: 3px;
+            margin-left: 5px;
+            color: var(--subtext-color);
+        }
+
+        /* Screen Rules */
+        @media screen {
+            .print-only {
+                display: none !important;
+            }
+        }
+
+        /* Native Print Rules (Ensures true vector text crispness) */
+        @media print {
+            @page {
+                size: A4;
+                margin: 20mm;
+            }
+            body {
+                padding: 0;
+                font-size: 11pt;
+                background: #fff;
+                color: #000;
+            }
+            .cv-container {
+                max-width: 100%;
+            }
+            .export-btn-container {
+                display: none !important; /* Hide button on the final PDF */
+            }
+            .journal-metric {
+                border: 1px solid #ddd;
+                background: none;
+            }
+            .print-only {
+                display: block !important; /* Re-shows your hidden email and web link natively */
+            }
+            section, .cv-entry, ol.publications li {
+                page-break-inside: avoid;
+            }
+            h2, h3 {
+                page-break-after: avoid;
+            }
+        }
+    </style>
 </head>
 <body>
 
@@ -97,34 +340,34 @@ layout: null
 
     <section>
         <h2>Scholarships & Awards</h2>
-        <div class="cv-entry">
-            <div class="cv-date">Ph.D.</div>
-            <div class="cv-content">
-                <span class="cv-title">Japanese Government (MEXT) Scholarship</span>
-                <div class="cv-meta">Fully funded PhD fellowship awarded by the Government of Japan.</div>
-            </div>
+    <div class="cv-entry">
+        <div class="cv-date">Ph.D.</div>
+        <div class="cv-content">
+            <span class="cv-title">Japanese Government (MEXT) Scholarship</span>
+            <div class="cv-meta">Fully funded PhD fellowship awarded by the Government of Japan.</div>
         </div>
-        <div class="cv-entry">
-            <div class="cv-date">MSc.</div>
-            <div class="cv-content">
-                <span class="cv-title">National Science and Technology (NST) Fellowship</span>, Ministry of Science and Technology, Bangladesh.
-                <div class="cv-meta">Graduate fellowship awarded in support of Master's studies.</div>
-            </div>
+    </div>
+    <div class="cv-entry">
+        <div class="cv-date">MSc.</div>
+        <div class="cv-content">
+            <span class="cv-title">National Science and Technology (NST) Fellowship</span>, Ministry of Science and Technology, Bangladesh.
+            <div class="cv-meta">Graduate fellowship awarded in support of Master's studies.</div>
         </div>
-        <div class="cv-entry">
-            <div class="cv-date">2017</div>
-            <div class="cv-content">
-                <span class="cv-title">Best Researcher Award</span>, Leading University, Bangladesh.
-                <div class="cv-meta">Recognized for outstanding research contributions.</div>
-            </div>
+    </div>
+    <div class="cv-entry">
+        <div class="cv-date">2017</div>
+        <div class="cv-content">
+            <span class="cv-title">Best Researcher Award</span>, Leading University, Bangladesh.
+            <div class="cv-meta">Recognized for outstanding research contributions.</div>
         </div>
-        <div class="cv-entry">
-            <div class="cv-date">Secondary &amp; Higher Secondary</div>
-            <div class="cv-content">
-                <span class="cv-title">Merit-Based Scholarships</span>, Ministry of Education, Bangladesh.
-                <div class="cv-meta">Awarded merit scholarships for academic excellence during secondary and higher secondary education.</div>
-            </div>
+    </div>
+    <div class="cv-entry">
+        <div class="cv-date">Secondary &amp; Higher Secondary</div>
+        <div class="cv-content">
+            <span class="cv-title">Merit-Based Scholarships</span>, Ministry of Education, Bangladesh.
+            <div class="cv-meta">Awarded merit scholarships for academic excellence during secondary and higher secondary education.</div>
         </div>
+    </div>
     </section>
 
     <section>
@@ -151,6 +394,7 @@ layout: null
 
     <section>
         <h2>Technical Skills</h2>
+
         <div class="cv-entry">
             <div class="cv-date">Programming</div>
             <div class="cv-content">
@@ -158,6 +402,7 @@ layout: null
                 <div class="cv-meta">Experienced in scientific plotting, data processing, and analysis of small- to medium-sized datasets.</div>
             </div>
         </div>
+
         <div class="cv-entry">
             <div class="cv-date">Languages</div>
             <div class="cv-content">
