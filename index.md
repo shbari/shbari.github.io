@@ -76,6 +76,17 @@ I study hydrology and fluvial–coastal systems in a changing climate, focusing 
 
 ---
 
+<p align="center">
+  <img src="../images/Climate_signal_Japan.jpg" alt="Climate_signal_Japan.jpg" width="500" style="border-radius:12px;">
+</p>
+
+<p align="center" style="font-size:0.85rem; color:#777;">
+Projected changes in rainfall indices across Japan under +2K global warming using the d4PDF large-ensemble dataset.
+</p>
+
+---
+
+
   <div style="text-align: center; margin-top: 30px; font-size: 0.9em; color: #666;">
   <p style="margin-bottom: 6px;">
     © 2026 Sheikh Hefzul Bari | Licensed under
