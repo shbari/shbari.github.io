@@ -77,7 +77,7 @@ I study hydrology and fluvial–coastal systems in a changing climate, focusing 
 ---
 
 <p align="center">
-  <img src="../images/Climate_signal_Japan.jpg" alt="Climate_signal_Japan.jpg" width="500" style="border-radius:12px;">
+  <img src="../images/.jpg" alt="Climate_signal_Japan.jpg" width="500" style="border-radius:12px;">
 </p>
 
 <p align="center" style="font-size:0.85rem; color:#777;">
