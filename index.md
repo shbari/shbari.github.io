@@ -81,7 +81,7 @@ I study hydrology and fluvial–coastal systems in a changing climate, focusing 
 </p>
 
 <p align="center" style="font-size:0.85rem; color:#777;">
-Projected changes in rainfall indices across Japan under +2K global warming using the d4PDF large-ensemble dataset.
+.................
 </p>
 
 ---
