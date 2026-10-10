@@ -79,10 +79,10 @@ title: "Sheikh Hefzul Bari"
     .nav-toggle:checked + .nav-toggle-label + .navbar-links { display: flex; }
   }
 
-  /* ── INTERACTIVE FLASHCARD GRID ── */
+  /* ── INTERACTIVE FLASHCARD GRID (2x2 Balanced Layout) ── */
   .card-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
     gap: 1.25rem;
     width: 100%;
     margin: 2.5rem 0;
@@ -96,7 +96,7 @@ title: "Sheikh Hefzul Bari"
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    min-height: 180px;
+    min-height: 170px;
     text-decoration: none !important;
     color: var(--text-color) !important;
     box-shadow: var(--card-shadow);
@@ -113,7 +113,6 @@ title: "Sheikh Hefzul Bari"
   .flashcard:nth-child(2) { animation-delay: 1.2s; }
   .flashcard:nth-child(3) { animation-delay: 2.4s; }
   .flashcard:nth-child(4) { animation-delay: 3.6s; }
-  .flashcard:nth-child(5) { animation-delay: 4.8s; }
 
   .flashcard:hover {
     transform: translateY(-8px) scale(1.01);
@@ -138,14 +137,12 @@ title: "Sheikh Hefzul Bari"
   .tag-news { background-color: rgba(40, 167, 69, 0.15); color: #28a745; }
   .tag-publications { background-color: rgba(111, 66, 193, 0.15); color: #6f42c1; }
   .tag-talks { background-color: rgba(217, 119, 6, 0.15); color: #d97706; }
-  .tag-cv { background-color: rgba(106, 115, 125, 0.15); color: #6a737d; }
 
   @media (prefers-color-scheme: dark) {
     .tag-research { color: #58a6ff; }
     .tag-news { color: #56d364; }
     .tag-publications { color: #bc8cff; }
     .tag-talks { color: #f0883e; }
-    .tag-cv { color: #8b949e; }
   }
 
   .flashcard h3 {
@@ -199,7 +196,8 @@ title: "Sheikh Hefzul Bari"
     <em>Suspended sediment dynamics &bull; Climate change &bull; Compound flooding &bull; River continuum</em>
   </p>
 
-  <!-- Social Badges -->
+  <!-- Social & Credentials Badges -->
+  <a href="cv"><img src="https://img.shields.io/badge/CV-4B5563?style=flat&logo=document&logoColor=white" alt="Curriculum Vitae"></a>
   <a href="https://orcid.org/0000-0003-2635-2146" target="_blank"><img src="https://img.shields.io/badge/ORCID-A6CE39?style=flat&logo=orcid&logoColor=white" alt="ORCID"></a>
   <a href="https://www.researchgate.net/profile/Sheikh-Hefzul-Bari" target="_blank"><img src="https://img.shields.io/badge/ResearchGate-00CCBB?style=flat&logo=researchgate&logoColor=white" alt="ResearchGate"></a>
   <a href="https://scholar.google.com/citations?user=6c-lCXEAAAAJ&hl=en" target="_blank"><img src="https://img.shields.io/badge/Google_Scholar-4285F4?style=flat&logo=googlescholar&logoColor=white" alt="Google Scholar"></a>
@@ -228,7 +226,7 @@ I study hydrology and fluvial&ndash;coastal systems in a changing climate, focus
 
 ---
 
-<!-- Directory / Interactive Flashcards Grid -->
+<!-- Directory / Interactive Flashcards Grid (4 Cards) -->
 <main class="card-grid">
   <!-- Research Card -->
   <a href="#research-interests" class="flashcard">
@@ -265,15 +263,6 @@ I study hydrology and fluvial&ndash;coastal systems in a changing climate, focus
     </div>
     <p>Keynotes, invited lectures, symposium talks, and academic workshop slides.</p>
   </a>
-
-  <!-- CV Card -->
-  <a href="cv" class="flashcard">
-    <div>
-      <div class="card-tag tag-cv">Resume</div>
-      <h3>CV</h3>
-    </div>
-    <p>Comprehensive academic record, professional experience, education, and credentials.</p>
-  </a>
 </main>
 
 ---
@@ -285,6 +274,6 @@ I study hydrology and fluvial&ndash;coastal systems in a changing climate, focus
     <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" style="color: var(--link-color);">CC BY 4.0</a>
   </p>
   <p style="margin: 0;">
-    <small>Last updated: 29 June 2026</small>
+    <small>Last updated: 30 June 2026</small>
   </p>
 </div>
