@@ -202,7 +202,7 @@ title: "Sheikh Hefzul Bari"
   <a href="https://scholar.google.com/citations?user=6c-lCXEAAAAJ&hl=en" target="_blank"><img src="https://img.shields.io/badge/Google_Scholar-4285F4?style=flat&logo=googlescholar&logoColor=white" alt="Google Scholar"></a>
   <a href="https://www.linkedin.com/in/shbari" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
   <a href="mailto:bari.sheikh.hefzul.d5@tohoku.ac.jp"><img src="https://img.shields.io/badge/Get_in_touch-EA4335?style=flat&logo=gmail&logoColor=white" alt="Get in touch"></a>
-  <a href="cv"><img src="https://img.shields.io/badge/CV-1D3557?style=flat&logo=document&logoColor=white" alt="Curriculum Vitae"></a>
+  <a href="cv"><img src="https://img.shields.io/badge/CV-6D28D9?style=flat&logo=document&logoColor=white" alt="Curriculum Vitae"></a>
 </div>
 
 ---
