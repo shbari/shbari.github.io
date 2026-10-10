@@ -211,7 +211,7 @@ title: "Sheikh Hefzul Bari"
 <h2 id="about">About</h2>
 
 <div style="text-align: justify;">
-I study hydrology and fluvial&ndash;coastal systems in a changing climate, focusing on how hydrological and geomorphological processes shape suspended sediment dynamics from mountain headwaters to river mouths. My research also explores extreme events, with the aim of developing data-driven hazard assessment tools and resilience-oriented adaptation strategies. I am currently working as a <strong>Specially Appointed Assistant Professor at Tohoku University</strong>.
+I study hydrology and fluvial&ndash;coastal systems in a changing climate, focusing on how hydrological and geomorphological processes shape suspended sediment dynamics from mountain headwaters to river mouths. My research also explores extreme events, with the aim of developing data-driven hazard assessment tools and resilience-oriented adaptation strategies.  To achieve this, I use observational and large-ensemble climate simulation data. I am currently working as a <strong>Specially Appointed Assistant Professor at Tohoku University</strong>.
 </div>
 
 ---
