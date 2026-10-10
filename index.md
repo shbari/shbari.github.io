@@ -177,7 +177,7 @@ title: "Sheikh Hefzul Bari"
   <label for="nav-toggle" class="nav-toggle-label">☰ Menu</label>
   <div class="navbar-links">
     <a href="#about">About</a>
-    <a href="#research-interests">Research</a>
+    <a href="Research">Research</a>
     <a href="News">News</a>
     <a href="publications">Publications</a>
     <a href="#talks">Talks</a>
@@ -197,12 +197,12 @@ title: "Sheikh Hefzul Bari"
   </p>
 
   <!-- Social & Credentials Badges -->
-  <a href="cv"><img src="https://img.shields.io/badge/CV-4B5563?style=flat&logo=document&logoColor=white" alt="Curriculum Vitae"></a>
   <a href="https://orcid.org/0000-0003-2635-2146" target="_blank"><img src="https://img.shields.io/badge/ORCID-A6CE39?style=flat&logo=orcid&logoColor=white" alt="ORCID"></a>
   <a href="https://www.researchgate.net/profile/Sheikh-Hefzul-Bari" target="_blank"><img src="https://img.shields.io/badge/ResearchGate-00CCBB?style=flat&logo=researchgate&logoColor=white" alt="ResearchGate"></a>
   <a href="https://scholar.google.com/citations?user=6c-lCXEAAAAJ&hl=en" target="_blank"><img src="https://img.shields.io/badge/Google_Scholar-4285F4?style=flat&logo=googlescholar&logoColor=white" alt="Google Scholar"></a>
   <a href="https://www.linkedin.com/in/shbari" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
   <a href="mailto:bari.sheikh.hefzul.d5@tohoku.ac.jp"><img src="https://img.shields.io/badge/Get_in_touch-EA4335?style=flat&logo=gmail&logoColor=white" alt="Get in touch"></a>
+  <a href="cv"><img src="https://img.shields.io/badge/CV-4B5563?style=flat&logo=document&logoColor=white" alt="Curriculum Vitae"></a>
 </div>
 
 ---
@@ -216,20 +216,10 @@ I study hydrology and fluvial&ndash;coastal systems in a changing climate, focus
 
 ---
 
-<!-- Research Interests -->
-<h2 id="research-interests">Research Interests</h2>
-
-- Climate change and hydrological impacts  
-- Suspended sediment dynamics (from mountains to estuary)  
-- Fluvial and pluvial flooding  
-- Open-source tools for hydro-sediment analysis  
-
----
-
 <!-- Directory / Interactive Flashcards Grid (4 Cards) -->
 <main class="card-grid">
   <!-- Research Card -->
-  <a href="#research-interests" class="flashcard">
+  <a href="Research" class="flashcard">
     <div>
       <div class="card-tag tag-research">Focus Areas</div>
       <h3>Research</h3>
@@ -274,6 +264,6 @@ I study hydrology and fluvial&ndash;coastal systems in a changing climate, focus
     <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" style="color: var(--link-color);">CC BY 4.0</a>
   </p>
   <p style="margin: 0;">
-    <small>Last updated: 30 June 2026</small>
+    <small>Last updated: 29 June 2026</small>
   </p>
 </div>
