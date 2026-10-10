@@ -227,14 +227,28 @@ I study hydrology and fluvial&ndash;coastal systems in a changing climate, focus
     <p>Hydro-sediment analysis, sediment dynamics, and compound flooding under changing climate.</p>
   </a>
 
-  <!-- News Card -->
-  <a href="News" class="flashcard">
-    <div>
-      <div class="card-tag tag-news">Updates</div>
-      <h3>News</h3>
-    </div>
-    <p>Recent announcements, conference presentations, grants, and academic milestones.</p>
-  </a>
+<!-- News Card -->
+<!-- News Card -->
+<a href="News" class="flashcard">
+  <div>
+    <div class="card-tag tag-news">Latest Update</div>
+    <h3>News</h3>
+  </div>
+  <p>
+    <span style="
+      background-color: #d97706; 
+      color: #ffffff; 
+      font-size: 0.65rem; 
+      font-weight: 700; 
+      padding: 2px 6px; 
+      border-radius: 3px; 
+      text-transform: uppercase; 
+      margin-right: 4px;
+      vertical-align: middle;
+    ">🏆 Honored</span><br>
+    Received the <strong>Japan Society of Hydrology and Water Resources (JSHWR) Award</strong>.
+  </p>
+</a>
 
   <!-- Publications Card -->
   <a href="publications" class="flashcard">
