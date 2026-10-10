@@ -178,7 +178,7 @@ title: "Sheikh Hefzul Bari"
   <div class="navbar-links">
     <a href="#about">About</a>
     <a href="Research">Research</a>
-    <a href="News">News</a>
+    <a href="news">News</a>
     <a href="publications">Publications</a>
     <a href="#talks">Talks</a>
     <a href="cv">CV</a>
@@ -229,7 +229,7 @@ I study hydrology and fluvial&ndash;coastal systems in a changing climate, focus
 
 <!-- News Card -->
 <!-- News Card -->
-<a href="News" class="flashcard">
+<a href="news" class="flashcard">
   <div>
     <div class="card-tag tag-news">Latest Update</div>
     <h3>News</h3>
@@ -278,6 +278,6 @@ I study hydrology and fluvial&ndash;coastal systems in a changing climate, focus
     <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" style="color: var(--link-color);">CC BY 4.0</a>
   </p>
   <p style="margin: 0;">
-    <small>Last updated: 29 June 2026</small>
+    <small>Last updated: 10 October 2026</small>
   </p>
 </div>
