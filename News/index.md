@@ -5,7 +5,8 @@ Just published
 </span>
 
 ---
-***20260915***
+# JSHWR Award
+*20260915*
 I have received the **Japan Society of Hydrology and Water Resources Young Author Excellent Article Award**
 This award recognizes young researchers whose work makes an original and promising contribution to the advancement of hydrology and water resources.
 I’m deeply grateful to the Japan Society of Hydrology and Water Resources for this recognition, and especially thankful to my supervisor and my family for their endless support, encouragement, and belief in me throughout this journey. ❤️
