@@ -213,7 +213,7 @@ I study hydrology and fluvial&ndash;coastal systems in a changing climate, focus
 <!-- Directory / Interactive Flashcards Grid (2 Cards) -->
 <main class="card-grid">
   <!-- Research Card -->
-  <a href="Research" class="flashcard">
+  <a href="publications" class="flashcard">
     <div>
       <div class="card-tag tag-research">Focus Areas</div>
       <h3>Research</h3>
