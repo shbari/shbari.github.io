@@ -228,7 +228,6 @@ I study hydrology and fluvial&ndash;coastal systems in a changing climate, focus
   </a>
 
 <!-- News Card -->
-<!-- News Card -->
 <a href="news" class="flashcard">
   <div>
     <div class="card-tag tag-news">Latest Update</div>
@@ -278,6 +277,6 @@ I study hydrology and fluvial&ndash;coastal systems in a changing climate, focus
     <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" style="color: var(--link-color);">CC BY 4.0</a>
   </p>
   <p style="margin: 0;">
-    <small>Last updated: 10 October 2026</small>
+    <small>Last updated: 29 June 2026</small>
   </p>
 </div>
