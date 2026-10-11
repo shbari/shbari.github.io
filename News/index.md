@@ -1,8 +1,3 @@
-## What’s New
-
-<span style="display:inline-block; background:#ffecec; color:#b30000; padding:4px 10px; border-radius:999px; font-weight:600; font-size:0.85rem;">
-Just published
-</span>
 
 ---
 # JSHWR Award
