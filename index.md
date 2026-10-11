@@ -252,6 +252,6 @@ I study hydrology and fluvial&ndash;coastal systems in a changing climate, focus
     &copy; 2026 Sheikh Hefzul Bari. All rights reserved.
   </p>
   <p style="margin: 0;">
-    <small>Last updated: 29 June 2026</small>
+    <small>Last updated: 11 Oct. 2026</small>
   </p>
 </div>
