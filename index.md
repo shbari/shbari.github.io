@@ -178,7 +178,7 @@ title: "Sheikh Hefzul Bari"
   <div class="navbar-links">
     <a href="#about">About</a>
     <a href="Research">Research</a>
-    <a href="news">News</a>
+    <a href="News">News</a>
     <a href="publications">Publications</a>
     <a href="talks">Talks</a>
     <a href="cv">CV</a>
@@ -228,7 +228,7 @@ I study hydrology and fluvial&ndash;coastal systems in a changing climate, focus
   </a>
 
   <!-- News Card -->
-  <a href="news" class="flashcard">
+  <a href="News" class="flashcard">
     <div>
       <div class="card-tag tag-news">Latest Update</div>
       <h3>News</h3>
