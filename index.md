@@ -79,11 +79,11 @@ title: "Sheikh Hefzul Bari"
     .nav-toggle:checked + .nav-toggle-label + .navbar-links { display: flex; }
   }
 
-  /* ── INTERACTIVE FLASHCARD GRID (2x2 Balanced Layout) ── */
+  /* ── INTERACTIVE FLASHCARD GRID (Balanced 2-Card Layout) ── */
   .card-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-    gap: 1.25rem;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1.5rem;
     width: 100%;
     margin: 2.5rem 0;
   }
@@ -110,9 +110,7 @@ title: "Sheikh Hefzul Bari"
 
   /* Staggered Floating Delays */
   .flashcard:nth-child(1) { animation-delay: 0s; }
-  .flashcard:nth-child(2) { animation-delay: 1.2s; }
-  .flashcard:nth-child(3) { animation-delay: 2.4s; }
-  .flashcard:nth-child(4) { animation-delay: 3.6s; }
+  .flashcard:nth-child(2) { animation-delay: 1.5s; }
 
   .flashcard:hover {
     transform: translateY(-8px) scale(1.01);
@@ -135,14 +133,10 @@ title: "Sheikh Hefzul Bari"
   /* Distinct Tags */
   .tag-research { background-color: rgba(3, 102, 214, 0.15); color: #0366d6; }
   .tag-news { background-color: rgba(40, 167, 69, 0.15); color: #28a745; }
-  .tag-publications { background-color: rgba(111, 66, 193, 0.15); color: #6f42c1; }
-  .tag-talks { background-color: rgba(217, 119, 6, 0.15); color: #d97706; }
 
   @media (prefers-color-scheme: dark) {
     .tag-research { color: #58a6ff; }
     .tag-news { color: #56d364; }
-    .tag-publications { color: #bc8cff; }
-    .tag-talks { color: #f0883e; }
   }
 
   .flashcard h3 {
@@ -178,7 +172,7 @@ title: "Sheikh Hefzul Bari"
   <div class="navbar-links">
     <a href="#about">About</a>
     <a href="Research">Research</a>
-    <a href="News">News</a>
+    <a href="news">News</a>
     <a href="publications">Publications</a>
     <a href="talks">Talks</a>
     <a href="cv">CV</a>
@@ -216,7 +210,7 @@ I study hydrology and fluvial&ndash;coastal systems in a changing climate, focus
 
 ---
 
-<!-- Directory / Interactive Flashcards Grid (4 Cards) -->
+<!-- Directory / Interactive Flashcards Grid (2 Cards) -->
 <main class="card-grid">
   <!-- Research Card -->
   <a href="Research" class="flashcard">
@@ -228,7 +222,7 @@ I study hydrology and fluvial&ndash;coastal systems in a changing climate, focus
   </a>
 
   <!-- News Card -->
-  <a href="News" class="flashcard">
+  <a href="news" class="flashcard">
     <div>
       <div class="card-tag tag-news">Latest Update</div>
       <h3>News</h3>
@@ -247,24 +241,6 @@ I study hydrology and fluvial&ndash;coastal systems in a changing climate, focus
       ">🏆 Honored</span><br>
       Received the <strong>Japan Society of Hydrology and Water Resources (JSHWR) Award</strong>.
     </p>
-  </a>
-
-  <!-- Publications Card -->
-  <a href="publications" class="flashcard">
-    <div>
-      <div class="card-tag tag-publications">Papers</div>
-      <h3>Publications</h3>
-    </div>
-    <p>Peer-reviewed journal articles, conference papers, dataset publications, and preprints.</p>
-  </a>
-
-  <!-- Talks Card -->
-  <a href="talks" class="flashcard">
-    <div>
-      <div class="card-tag tag-talks">Presentations</div>
-      <h3>Talks</h3>
-    </div>
-    <p>Keynotes, invited lectures, symposium talks, and academic workshop slides.</p>
   </a>
 </main>
 
