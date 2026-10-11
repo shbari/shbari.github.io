@@ -180,7 +180,7 @@ title: "Sheikh Hefzul Bari"
     <a href="Research">Research</a>
     <a href="news">News</a>
     <a href="publications">Publications</a>
-    <a href="#talks">Talks</a>
+    <a href="talks">Talks</a>
     <a href="cv">CV</a>
   </div>
 </div>
@@ -211,7 +211,7 @@ title: "Sheikh Hefzul Bari"
 <h2 id="about">About</h2>
 
 <div style="text-align: justify;">
-I study hydrology and fluvial&ndash;coastal systems in a changing climate, focusing on how hydrological and geomorphological processes shape suspended sediment dynamics from mountain headwaters to river mouths. My research also explores extreme events, with the aim of developing data-driven hazard assessment tools and resilience-oriented adaptation strategies.  To achieve this, I use observational and large-ensemble climate simulation data. I am currently working as a <strong>Specially Appointed Assistant Professor at Tohoku University</strong>.
+I study hydrology and fluvial&ndash;coastal systems in a changing climate, focusing on how hydrological and geomorphological processes shape suspended sediment dynamics from mountain headwaters to river mouths. My research also explores extreme events, with the aim of developing data-driven hazard assessment tools and resilience-oriented adaptation strategies. To achieve this, I use observational and large-ensemble climate simulation data. I am currently working as a <strong>Specially Appointed Assistant Professor at Tohoku University</strong>.
 </div>
 
 ---
@@ -227,27 +227,27 @@ I study hydrology and fluvial&ndash;coastal systems in a changing climate, focus
     <p>Hydro-sediment analysis, sediment dynamics, and compound flooding under changing climate.</p>
   </a>
 
-<!-- News Card -->
-<a href="news" class="flashcard">
-  <div>
-    <div class="card-tag tag-news">Latest Update</div>
-    <h3>News</h3>
-  </div>
-  <p>
-    <span style="
-      background-color: #d97706; 
-      color: #ffffff; 
-      font-size: 0.65rem; 
-      font-weight: 700; 
-      padding: 2px 6px; 
-      border-radius: 3px; 
-      text-transform: uppercase; 
-      margin-right: 4px;
-      vertical-align: middle;
-    ">🏆 Honored</span><br>
-    Received the <strong>Japan Society of Hydrology and Water Resources (JSHWR) Award</strong>.
-  </p>
-</a>
+  <!-- News Card -->
+  <a href="news" class="flashcard">
+    <div>
+      <div class="card-tag tag-news">Latest Update</div>
+      <h3>News</h3>
+    </div>
+    <p>
+      <span style="
+        background-color: #d97706; 
+        color: #ffffff; 
+        font-size: 0.65rem; 
+        font-weight: 700; 
+        padding: 2px 6px; 
+        border-radius: 3px; 
+        text-transform: uppercase; 
+        margin-right: 4px;
+        vertical-align: middle;
+      ">🏆 Honored</span><br>
+      Received the <strong>Japan Society of Hydrology and Water Resources (JSHWR) Award</strong>.
+    </p>
+  </a>
 
   <!-- Publications Card -->
   <a href="publications" class="flashcard">
@@ -259,7 +259,7 @@ I study hydrology and fluvial&ndash;coastal systems in a changing climate, focus
   </a>
 
   <!-- Talks Card -->
-  <a href="#talks" class="flashcard">
+  <a href="talks" class="flashcard">
     <div>
       <div class="card-tag tag-talks">Presentations</div>
       <h3>Talks</h3>
