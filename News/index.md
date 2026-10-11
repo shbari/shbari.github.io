@@ -1,6 +1,6 @@
 
 ---
-## 2026 JSHWR Award
+## I have received 2026 Japan Society of Hydrology and Water Resources (JSHWR) Award
 **20260915**  
 I have received the **Japan Society of Hydrology and Water Resources Young Author Excellent Article Award**.  
 This award recognizes young researchers whose work makes an original and promising contribution to the advancement of hydrology and water resources.  
