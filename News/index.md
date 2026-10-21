@@ -1,3 +1,16 @@
+## I have joined RCCC 2026 at Bangkok
+**20261015-16**  
+I have joined Regional Climate Change Conference (RCCC) 2026 at Bangkok.  
+In addition to sharing my own work on sediment transport in mountainous rivers, **I convened** a special session titled **Future Fluvial Sediment Transport and Adaptation**, which fostered discussions on evolving river and coastal dynamics, climate change impact, and future adaptation strategies.  
+One of our doctoral students received Best presentation award. Congratulations Minni.
+
+<p align="center">
+  <img src="../images/IMG_1311.jpg" alt="AOGS presentation" width="500" style="border-radius:12px;">
+</p>
+
+<p align="center" style="font-size:0.85rem; color:#777;">
+AOGS Annual Meeting · Singapore
+</p>
 
 ---
 ## I have received 2026 Japan Society of Hydrology and Water Resources (JSHWR) Award
