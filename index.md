@@ -239,7 +239,7 @@ I study hydrology and fluvial&ndash;coastal systems in a changing climate, focus
         margin-right: 4px;
         vertical-align: middle;
       ">RCCC 2026</span><br>
-      I have joined Regional Climate Change Conference (RCCC) 2026 at Bangkok where </strong>I convened<strong> a special session titled Future Fluvial Sediment Transport and Adaptation.</p>
+      I have joined Regional Climate Change Conference (RCCC) 2026 at Bangkok where <strong>I convened</strong> a special session titled Future Fluvial Sediment Transport and Adaptation.</p>
   </a>
 </main>
 
