@@ -238,8 +238,8 @@ I study hydrology and fluvial&ndash;coastal systems in a changing climate, focus
         text-transform: uppercase; 
         margin-right: 4px;
         vertical-align: middle;
-      ">🏆 Honored</span><br>
-      Received the <strong>Japan Society of Hydrology and Water Resources (JSHWR) Award</strong>.
+      ">RCCC 2026</span><br>
+      I have joined Regional Climate Change Conference (RCCC) 2026 at Bangkok where <strong>I convened<strong> a special session titled **Future Fluvial Sediment Transport and Adaptation**.
     </p>
   </a>
 </main>
