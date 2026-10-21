@@ -9,7 +9,7 @@ One of our doctoral students received Best presentation award. Congratulations M
 </p>
 
 <p align="center" style="font-size:0.85rem; color:#777;">
-AOGS Annual Meeting · Singapore
+RCCC 2026 · Bangkok
 </p>
 
 ---
