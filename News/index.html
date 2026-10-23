@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>News & Announcements</title>
+  <title>News & Announcements | Dr. Shbari</title>
   <style>
     :root {
       --bg: #fafafa;
@@ -56,11 +56,28 @@
       margin: 0 auto;
     }
 
-    /* Header */
+    /* Back Link & Header */
     header {
       margin-bottom: 2rem;
       padding-bottom: 1.25rem;
       border-bottom: 1px solid var(--border);
+    }
+
+    .back-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.35rem;
+      font-size: 0.85rem;
+      font-weight: 600;
+      color: var(--text-muted);
+      text-decoration: none;
+      margin-bottom: 1.25rem;
+      transition: color 0.2s ease, transform 0.2s ease;
+    }
+
+    .back-link:hover {
+      color: var(--accent);
+      transform: translateX(-3px);
     }
 
     h1 {
@@ -314,6 +331,11 @@
 
   <div class="container">
     <header>
+      <!-- Back Link to Main Portfolio -->
+      <a href="https://shbari.github.io/" class="back-link">
+        &larr; Back to Main Site
+      </a>
+
       <h1>News & Updates</h1>
       <p class="subtitle">Latest academic research, conference talks, awards, and announcements.</p>
     </header>
@@ -327,7 +349,7 @@
         </div>
         <h3 class="announcement-title">Our Research Group is Hiring!</h3>
         <p class="announcement-body">
-          We are accepting applications for graduate (PhD) student positions in our research group. Ideal candidates should have a strong background/passion in one of our focus areas and excellent academic records.
+          We are accepting applications for graduate (PhD) student positions in our research group. Ideal candidates should have a strong background in one or our research areas and excellent academic records.
         </p>
       </div>
     </section>
