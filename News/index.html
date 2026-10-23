@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>News & Announcements</title>
+  <style>
+    :root {
+      --bg: #fafafa;
+      --card-bg: #ffffff;
+      --border: #e2e8f0;
+      --border-hover: #cbd5e1;
+      --text-main: #0f172a;
+      --text-muted: #64748b;
+      --accent: #2563eb;
+      --accent-bg: rgba(37, 99, 235, 0.08);
+      --announce-bg: rgba(14, 165, 233, 0.06);
+      --announce-border: rgba(56, 189, 248, 0.3);
+      --announce-accent: #0284c7;
+      --shadow-sm: 0 1px 3px rgba(0,0,0,0.04), 0 1px 2px rgba(0,0,0,0.02);
+      --shadow-md: 0 10px 15px -3px rgba(0,0,0,0.05), 0 4px 6px -2px rgba(0,0,0,0.02);
+    }
+
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #0b0f19;
+        --card-bg: #111827;
+        --border: #1e2937;
+        --border-hover: #374151;
+        --text-main: #f3f4f6;
+        --text-muted: #9ca3af;
+        --accent: #3b82f6;
+        --accent-bg: rgba(59, 130, 246, 0.12);
+        --announce-bg: rgba(14, 165, 233, 0.1);
+        --announce-border: rgba(56, 189, 248, 0.25);
+        --announce-accent: #38bdf8;
+        --shadow-sm: 0 2px 4px rgba(0,0,0,0.2);
+        --shadow-md: 0 10px 15px -3px rgba(0,0,0,0.4);
+      }
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      background: var(--bg);
+      color: var(--text-main);
+      font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Inter", "Segoe UI", Roboto, sans-serif;
+      line-height: 1.65;
+      padding: 3rem 1.25rem;
+      letter-spacing: -0.01em;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    .container {
+      max-width: 720px;
+      margin: 0 auto;
+    }
+
+    /* Header */
+    header {
+      margin-bottom: 2rem;
+      padding-bottom: 1.25rem;
+      border-bottom: 1px solid var(--border);
+    }
+
+    h1 {
+      font-size: 2.25rem;
+      font-weight: 800;
+      letter-spacing: -0.03em;
+      color: var(--text-main);
+      margin-bottom: 0.4rem;
+    }
+
+    .subtitle {
+      color: var(--text-muted);
+      font-size: 0.98rem;
+    }
+
+    /* Announcements Section */
+    .announcements-section {
+      margin-bottom: 2rem;
+    }
+
+    .announcement-card {
+      background: var(--announce-bg);
+      border: 1px solid var(--announce-border);
+      border-left: 4px solid var(--announce-accent);
+      border-radius: 8px;
+      padding: 1.2rem 1.25rem;
+      box-shadow: var(--shadow-sm);
+      margin-bottom: 1rem;
+    }
+
+    .announcement-meta {
+      display: flex;
+      align-items: center;
+      gap: 0.6rem;
+      margin-bottom: 0.4rem;
+    }
+
+    .announcement-badge {
+      background: var(--announce-accent);
+      color: #ffffff;
+      font-size: 0.68rem;
+      font-weight: 700;
+      padding: 0.15rem 0.5rem;
+      border-radius: 4px;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+    }
+
+    .announcement-date {
+      font-size: 0.8rem;
+      color: var(--text-muted);
+      font-weight: 600;
+    }
+
+    .announcement-title {
+      font-size: 1.05rem;
+      font-weight: 700;
+      color: var(--text-main);
+      margin-bottom: 0.35rem;
+    }
+
+    .announcement-body {
+      font-size: 0.92rem;
+      color: var(--text-main);
+    }
+
+    .announcement-body a {
+      color: var(--announce-accent);
+      text-decoration: underline;
+      font-weight: 600;
+    }
+
+    /* Glassmorphism Filters Bar */
+    .filters-wrapper {
+      position: sticky;
+      top: 0;
+      z-index: 10;
+      background: rgba(250, 250, 250, 0.85);
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+      padding: 0.75rem 0;
+      margin-bottom: 1.75rem;
+      border-bottom: 1px solid rgba(226, 232, 240, 0.6);
+    }
+
+    @media (prefers-color-scheme: dark) {
+      .filters-wrapper {
+        background: rgba(11, 15, 25, 0.85);
+        border-bottom-color: rgba(31, 41, 55, 0.6);
+      }
+    }
+
+    .filters {
+      display: flex;
+      gap: 0.5rem;
+      flex-wrap: wrap;
+    }
+
+    .filter-btn {
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      color: var(--text-muted);
+      padding: 0.4rem 0.95rem;
+      border-radius: 20px;
+      font-size: 0.82rem;
+      font-weight: 500;
+      cursor: pointer;
+      transition: all 0.2s ease;
+      box-shadow: var(--shadow-sm);
+    }
+
+    .filter-btn:hover {
+      border-color: var(--border-hover);
+      color: var(--text-main);
+    }
+
+    .filter-btn.active {
+      background: var(--accent);
+      color: #ffffff;
+      border-color: var(--accent);
+      box-shadow: 0 2px 6px rgba(37, 99, 235, 0.25);
+    }
+
+    /* Cards with Minimalist Left Accent Border */
+    .news-list {
+      display: flex;
+      flex-direction: column;
+      gap: 1.5rem;
+    }
+
+    .news-card {
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-left: 4px solid var(--accent);
+      border-radius: 4px 12px 12px 4px;
+      padding: 1.5rem;
+      box-shadow: var(--shadow-sm);
+      transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+    }
+
+    .news-card:hover {
+      border-color: var(--border-hover);
+      border-left-color: var(--accent);
+      box-shadow: var(--shadow-md);
+      transform: translateY(-2px);
+    }
+
+    .news-card.hidden {
+      display: none;
+    }
+
+    .news-meta {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 0.65rem;
+    }
+
+    .news-date {
+      font-size: 0.8rem;
+      font-weight: 700;
+      color: var(--text-muted);
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+    }
+
+    /* Badges */
+    .badge {
+      font-size: 0.72rem;
+      font-weight: 600;
+      padding: 0.2rem 0.6rem;
+      border-radius: 12px;
+    }
+
+    .badge-conference { background: var(--accent-bg); color: var(--accent); }
+    .badge-award { background: rgba(217, 119, 6, 0.12); color: #d97706; }
+    .badge-publication { background: rgba(16, 185, 129, 0.12); color: #059669; }
+    .badge-general { background: rgba(100, 116, 139, 0.12); color: var(--text-muted); }
+
+    .news-title {
+      font-size: 1.2rem;
+      font-weight: 700;
+      line-height: 1.35;
+      color: var(--text-main);
+      margin-bottom: 0.65rem;
+      letter-spacing: -0.015em;
+    }
+
+    .news-content {
+      font-size: 0.95rem;
+      color: var(--text-muted);
+      line-height: 1.65;
+    }
+
+    .news-content strong {
+      color: var(--text-main);
+    }
+
+    /* Images & Lightbox */
+    .news-image {
+      margin-top: 1.25rem;
+      border-radius: 8px;
+      overflow: hidden;
+      border: 1px solid var(--border);
+    }
+
+    .news-image img {
+      width: 100%;
+      height: auto;
+      max-height: 380px;
+      object-fit: cover;
+      display: block;
+      cursor: pointer;
+      transition: transform 0.3s ease;
+    }
+
+    .news-image img:hover {
+      transform: scale(1.015);
+    }
+
+    .news-image figcaption {
+      font-size: 0.78rem;
+      color: var(--text-muted);
+      padding: 0.45rem 0.75rem;
+      background: var(--bg);
+      text-align: center;
+      border-top: 1px solid var(--border);
+    }
+
+    .lightbox {
+      display: none;
+      position: fixed;
+      top: 0; left: 0; width: 100%; height: 100%;
+      background: rgba(0,0,0,0.85);
+      backdrop-filter: blur(6px);
+      z-index: 1000;
+      justify-content: center;
+      align-items: center;
+      padding: 1rem;
+    }
+
+    .lightbox img {
+      max-width: 90%;
+      max-height: 85vh;
+      border-radius: 8px;
+      box-shadow: 0 20px 25px -5px rgba(0,0,0,0.5);
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <header>
+      <h1>News & Updates</h1>
+      <p class="subtitle">Latest academic research, conference talks, awards, and announcements.</p>
+    </header>
+
+    <!-- 📢 ANNOUNCEMENTS SECTION -->
+    <section class="announcements-section">
+      <div class="announcement-card">
+        <div class="announcement-meta">
+          <span class="announcement-badge">📢 Announcement</span>
+          <span class="announcement-date">October 2026</span>
+        </div>
+        <h3 class="announcement-title">Our Research Group is Hiring!</h3>
+        <p class="announcement-body">
+          We are accepting applications for graduate (PhD) student positions in our research group. Ideal candidates should have a strong background in one or our research areas and excellent academic records.
+        </p>
+      </div>
+    </section>
+
+    <!-- STICKY GLASSMORPHISM FILTERS -->
+    <div class="filters-wrapper">
+      <div class="filters">
+        <button class="filter-btn active" onclick="filterNews('all', this)">All</button>
+        <button class="filter-btn" onclick="filterNews('Conference', this)">Conferences</button>
+        <button class="filter-btn" onclick="filterNews('Award', this)">Awards</button>
+        <button class="filter-btn" onclick="filterNews('Publication', this)">Publications</button>
+      </div>
+    </div>
+
+    <!-- NEWS POSTS LIST -->
+    <div class="news-list" id="newsContainer">
+      
+      <!-- PASTE NEW POSTS BELOW THIS LINE -->
+
+      <article class="news-card" data-category="Conference">
+        <div class="news-meta">
+          <span class="news-date">Oct 15–16, 2026</span>
+          <span class="badge badge-conference">Conference</span>
+        </div>
+        <h2 class="news-title">Joined RCCC 2026 in Bangkok & Convened Special Session</h2>
+        <div class="news-content">
+          <p>I attended the Regional Climate Change Conference (RCCC) 2026 in Bangkok. In addition to presenting my research on sediment transport in mountainous rivers, <strong>I convened</strong> a special session titled <em>Future Fluvial Sediment Transport and Adaptation</em>, fostering discussions on evolving river dynamics, climate impact, and adaptation strategies.</p>
+          <p style="margin-top:0.5rem;">Congratulations to our doctoral student, Minni, for receiving the Best Presentation Award!</p>
+        </div>
+        <figure class="news-image">
+          <img src="../images/IMG_1311.jpg" alt="RCCC 2026 presentation" onclick="openLightbox(this.src)" loading="lazy">
+          <figcaption>RCCC 2026 · Bangkok</figcaption>
+        </figure>
+      </article>
+
+      <article class="news-card" data-category="Award">
+        <div class="news-meta">
+          <span class="news-date">Sep 15, 2026</span>
+          <span class="badge badge-award">Award</span>
+        </div>
+        <h2 class="news-title">Received 2026 Japan Society of Hydrology and Water Resources Award</h2>
+        <div class="news-content">
+          <p>I am honored to receive the <strong>JSHWR Young Author Excellent Article Award</strong>. This award recognizes young researchers whose work makes an original and promising contribution to hydrology and water resources science.</p>
+          <p style="margin-top:0.5rem;">Deeply grateful to the society for this recognition, and thankful to my supervisor and family for their endless support! ❤️</p>
+        </div>
+      </article>
+
+      <article class="news-card" data-category="Publication">
+        <div class="news-meta">
+          <span class="news-date">2026</span>
+          <span class="badge badge-publication">Publication</span>
+        </div>
+        <h2 class="news-title">Paper Published in Hydrological Research Letters</h2>
+        <div class="news-content">
+          <p><strong>“Improving rainfall–runoff–inundation model for realistic representations of main river with levees”</strong> has been published in <em>Hydrological Research Letters</em>.</p>
+          <p style="margin-top:0.5rem;">This study improves hydrological model representation of river levees to better simulate flood dynamics in regulated river systems.</p>
+        </div>
+      </article>
+
+      <article class="news-card" data-category="Conference">
+        <div class="news-meta">
+          <span class="news-date">2025</span>
+          <span class="badge badge-conference">Conference</span>
+        </div>
+        <h2 class="news-title">Conference Presentation at AOGS Annual Meeting</h2>
+        <div class="news-content">
+          <p>Presented ongoing research at the Asia Oceania Geosciences Society (AOGS) Annual Meeting in Singapore.</p>
+        </div>
+        <figure class="news-image">
+          <img src="../images/IMG_4842.JPG" alt="AOGS presentation in Singapore" onclick="openLightbox(this.src)" loading="lazy">
+          <figcaption>AOGS Annual Meeting · Singapore</figcaption>
+        </figure>
+      </article>
+
+    </div>
+  </div>
+
+  <!-- Lightbox Modal -->
+  <div class="lightbox" id="lightbox" onclick="closeLightbox()">
+    <img id="lightboxImg" src="" alt="Enlarged view">
+  </div>
+
+  <script>
+    function filterNews(category, btn) {
+      document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+
+      document.querySelectorAll('.news-card').forEach(card => {
+        if (category === 'all' || card.dataset.category === category) {
+          card.classList.remove('hidden');
+        } else {
+          card.classList.add('hidden');
+        }
+      });
+    }
+
+    function openLightbox(src) {
+      document.getElementById('lightboxImg').src = src;
+      document.getElementById('lightbox').style.display = 'flex';
+    }
+
+    function closeLightbox() {
+      document.getElementById('lightbox').style.display = 'none';
+    }
+  </script>
+</body>
+</html>
